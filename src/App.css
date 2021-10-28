@@ -1,0 +1,35 @@
+.App-Container {
+    display: grid;
+    gap: 30px;
+    grid-template-areas: 
+    "nav nav" 
+    "user contacts"
+    "post contacts"
+    "post contacts";
+} 
+
+.Nav {
+    grid-area: nav;
+}
+
+.Profile {
+    grid-area: user;
+}
+
+.Posts {
+    grid-area: post;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Contacts {
+    grid-area: contacts;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
