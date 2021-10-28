@@ -9,21 +9,43 @@ import ContactUserCard from "./Components/ContactUserCard";
 
 const App = () => {
   return (
-    <div className="App">
-      <NavBar />
-      <UserProfile />
-      <Posts>
-        <Post />
-        <Post />
-        <Post />
-      </Posts>
-      <Contacts>
-        <ContactUserCard />
-        <ContactUserCard />
-        <ContactUserCard />
-        <ContactUserCard />
-      </Contacts>
-    </div>
+    <body className="App">
+      <header>
+        <NavBar>
+          <button>What is Pursuit?</button>
+          <button>Create an account</button>
+          <button className="endbutton">Sign in</button>
+        </NavBar>
+      </header>
+      <div className="page">
+        <UserProfile>UserProfile</UserProfile>
+        <Contacts>
+          <p>Contacts</p>
+          <ContactUserCard>
+            <img src="profile.png" />
+            <p>Contact1</p>
+          </ContactUserCard>
+          <ContactUserCard>
+            <img src="profile.png" />
+            <p>Contact2</p>
+          </ContactUserCard>
+          <ContactUserCard>
+            <img src="profile.png" />
+            <p>Contact3</p>
+          </ContactUserCard>
+          <ContactUserCard>
+            <img src="profile.png" />
+            <p>Contact4</p>
+          </ContactUserCard>
+        </Contacts>
+        <Posts>
+          <p>Posts</p>
+          <Post>Post1</Post>
+          <Post>Post2</Post>
+          <Post>Post3</Post>
+        </Posts>
+      </div>
+    </body>
   );
 };
 
