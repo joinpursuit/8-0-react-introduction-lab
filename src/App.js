@@ -9,7 +9,21 @@ import UserProfile from "./Components/UserProfile"
 
 const App = () => {
   return (
-    <div></div>
+    <div>
+      <NavBar></NavBar>
+      <UserProfile></UserProfile>
+      <Posts>
+        <Post></Post>
+        <Post></Post>
+        <Post></Post>
+      </Posts>
+      <Contacts>
+        <ContactUserCard></ContactUserCard>
+        <ContactUserCard></ContactUserCard>
+        <ContactUserCard></ContactUserCard>
+        <ContactUserCard></ContactUserCard>
+      </Contacts>
+    </div>
   );
 };
 
