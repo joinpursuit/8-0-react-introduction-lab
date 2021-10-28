@@ -16,24 +16,4 @@ function App() {
 		</div>
 	);
 }
-
-// function App() {
-// 	return (
-// 		<div>
-// 			<MainNavigation />
-// 			<Switch>
-// 				<Route path="/" exact>
-// 					<AllMeetupsPage />
-// 				</Route>
-// 				<Route path="/new-meetup" exact>
-// 					<NewMeetupPage />
-// 				</Route>
-// 				<Route path="/favorites" exact>
-// 					<FavoritePage />
-// 				</Route>
-// 			</Switch>
-// 		</div>
-// 	);
-// }
-
 export default App;
