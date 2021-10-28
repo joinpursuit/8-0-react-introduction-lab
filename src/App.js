@@ -9,6 +9,7 @@ import UserProfile from "./Components/UserProfile"
 
 const App = () => {
   return (
+    <div></div>
   );
 };
 
