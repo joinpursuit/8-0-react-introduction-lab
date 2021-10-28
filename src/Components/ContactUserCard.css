@@ -1,0 +1,6 @@
+.Contact-User-Card {
+  border: 1px solid black;
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
