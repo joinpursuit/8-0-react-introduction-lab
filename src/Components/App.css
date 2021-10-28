@@ -1,0 +1,24 @@
+.container {
+	font-family: sans-serif;
+	background-color: rgb(201, 189, 174);
+	display: grid;
+	margin: 0 auto;
+	grid-template-areas:
+		" nav  nav  nav  nav "
+		" .  user  contact contact"
+		" .  post contact contact"
+		" post .  contact  contact";
+}
+
+.nav {
+	grid-area: nav;
+}
+.user {
+	grid-area: user;
+}
+.post {
+	grid-area: post;
+}
+.contacts {
+	grid-area: contact;
+}

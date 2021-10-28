@@ -1,5 +1,3 @@
-import { findByLabelText } from "@testing-library/react";
-
 function Post() {
 	const divStyle = {
 		color: "blue",
@@ -7,7 +5,7 @@ function Post() {
 		textAlign: "center",
 		margin: "20px",
 		padding: "30",
-		width: "50%",
+		width: "auto",
 	};
 	return (
 		<div style={divStyle}>

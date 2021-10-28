@@ -9,7 +9,7 @@ function ContactUserCard() {
 			<div>
 				<h1>Nima sherpa</h1>
 				<div>React creator</div>
-				<p> hey Again </p>
+				<p> Hey Again </p>
 			</div>
 		</div>
 	);
