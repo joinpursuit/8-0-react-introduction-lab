@@ -2,7 +2,7 @@ import Post from "./Post"
 
 const Posts = () => {
     return (
-        <div>
+        <div className="feed">
             <Post/>
             <Post/>
             <Post/>
