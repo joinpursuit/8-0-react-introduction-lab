@@ -1,6 +1,6 @@
 const Post = () => {
     return (
-        <div>
+        <div className="published-post">
             <h2>Title</h2>
             <p>Lorem Ipsem</p>
         </div>
