@@ -27,7 +27,8 @@ body,
 }
 
 .navbar button {
-  margin: 6px;
+  margin-right: 12px;
+  margin-top: 15px;
 }
 
 .user-profile,
