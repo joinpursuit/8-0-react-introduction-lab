@@ -14,21 +14,28 @@ const App = () => {
       <NavBar>
         <button>Uno</button>
         <button>Dos</button>
-        <button>Tres</button>
+        <button className="finalbtn">Tres</button>
       </NavBar>
       </header>
+      <div className="profile">
       <UserProfile />
-      <Posts>
-        <Post />
-        <Post />
-        <Post />
-      </Posts>
       <Contacts>
+        <p>Contacts</p>
         <ContactUserCard />
+        <p>first contact</p>
         <ContactUserCard />
+        <p>second contact</p>
         <ContactUserCard />
+        <p>third contact</p>
         <ContactUserCard />
+        <p>fourth contact</p>
       </Contacts>
+      <Posts>
+        <Post>un</Post>
+        <Post>deiu</Post>
+        <Post>touis</Post>
+      </Posts>
+      </div>
     </body>
   )
 };
