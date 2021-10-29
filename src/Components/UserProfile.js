@@ -1,6 +1,6 @@
 const UserProfile = () => {
     return (
-        <div>
+        <div className="profile">
             <img src="profile.png" alt="the silhouette a person with a gray background"></img>
             <h2 className="full-name">Jordan Walke</h2>
             <h3 className="job-title">React Creator</h3>
