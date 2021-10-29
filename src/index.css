@@ -12,4 +12,11 @@ body,
 
 .NavBar {
   background-color: #ADD7E6;
+  display: flex;
+  justify-content: flex-end;
+  padding: 2%;
+}
+
+.NavBar form {
+  padding: 1%;
 }
