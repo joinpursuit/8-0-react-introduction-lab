@@ -1,14 +1,13 @@
-import Post from "./Post"
+import Post from "./Post";
 const Posts = () => {
-    return (
-      <div className='post'>
-       <Post />
-       <Post />
-       <Post />
-       
-      </div>
-    )
-  }
+  return (
+    <div className="posts">
+      <h1>{'Posts'}</h1>
+      <Post />
+      <Post />
+      <Post />
+    </div>
+  );
+};
 
-
-export default Posts
+export default Posts;
