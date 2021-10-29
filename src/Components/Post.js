@@ -1,8 +1,10 @@
 function Post(){
     return(
-        <div>
-            Post
-        </div>
+           
+            <div className ="Post">
+            <h2>Title</h2>
+            <p> More words</p>
+            </div>
     )
 }
 

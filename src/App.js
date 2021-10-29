@@ -8,10 +8,10 @@ import UserProfile from "./Components/UserProfile"
 const App = () => {
   return  (
     <>
-    <NavBar/>
-    <Contacts/>
-    <Posts/>
-    <UserProfile/>
+      <NavBar/>
+      <UserProfile/>
+      <Posts/>
+      <Contacts/>
     </>
   )
   

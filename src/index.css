@@ -1,3 +1,51 @@
+.NavBar{
+  background-color:lightblue;
+  padding: 8px;
+  text-align: right;
+  margin-top: 3%;
+}
+
+.button{
+  margin-right: 10px;
+  margin: top 3%;
+}
+
+.UserProfile{
+  border:1px solid black;
+}
+
+
+
+.contacts {
+  border:1px solid black;
+  margin: 25%;
+  text-align: center;
+  
+}
+
+.picture{
+  border:1px solid black;
+}
+
+
+.Post{
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.User{
+  border: 1px solid black;
+  
+}
+
+.posts{
+  text-align:center;
+  border: 1px solid black;
+  grid-row: 2/ span 5;
+  grid-column: 1 / span 4;
+  margin:40px
+}
+
 body {
   font-family: sans-serif;
   margin: 0;
@@ -8,4 +56,6 @@ body,
 #root {
   height: 100%;
   width: 100%;
+  
 }
+
