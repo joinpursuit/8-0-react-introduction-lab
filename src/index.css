@@ -20,3 +20,11 @@ body,
 .NavBar form {
   padding: 1%;
 }
+
+.profile,
+.feed,
+.published-post, 
+.list-of-contacts, 
+.contact-user-card {
+  border: solid 1px black
+}
