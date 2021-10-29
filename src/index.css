@@ -2,6 +2,64 @@ body {
   font-family: sans-serif;
   margin: 0;
 }
+header {
+  background-color:pink;
+}
+NavBar {
+  float: right;
+}
+button {
+  margin-right: 12px;
+}
+.finalbtn {
+  margin-right: 28px;
+}
+.profile {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  height: 75%;
+  width: 85%;
+  margin: 30px;
+}
+UserProfile {
+  border: 1px solid purple;
+  margin-bottom: 20px;
+}
+Contacts {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column: 2;
+  grid-row: 1fr span 2fr;
+  border: 1px solid purple;
+  margin-left: 20px;
+  text-align: center;
+}
+
+Posts {
+display: grid;
+grid-template-columns: 1fr;
+text-align: center;
+margin-top:20px;
+border: 1px solid purple;
+}
+
+ContactUserCard, Post {
+  margin: 15px;
+  border: 1px solid black;
+}
+Posts, Contacts {
+  font-weight: bold;
+}
+
+UserProfile, Posts {
+  margin-right: 20px;
+}
+
+ContactUserCard {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
 
 html,
 body,
