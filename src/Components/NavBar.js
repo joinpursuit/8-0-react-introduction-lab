@@ -1,6 +1,6 @@
 const NavBar = () => {
     return (
-        <div>
+        <div className="NavBar">
             <form>
                 <input type="submit" value="What is Pursuit?" />
                 <input type="submit" value="Create an account" />
