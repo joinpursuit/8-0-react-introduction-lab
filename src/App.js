@@ -12,10 +12,11 @@ const App = () => {
     <div>
       <NavBar />
       <UserProfile />
-      <Contacts />
       <Posts />
+      <Contacts />
     </div>
   );
 };
+
 
 export default App;

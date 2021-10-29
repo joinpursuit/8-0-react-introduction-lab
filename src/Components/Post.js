@@ -1,7 +1,7 @@
 function Post() {
     return ( 
-        <div>
-            Post
+        <div className="eachPost">
+            Title
         </div>
     )
 }

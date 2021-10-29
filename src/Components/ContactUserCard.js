@@ -2,7 +2,7 @@
 function ContactUserCard () {
     return (
         <div>
-            ContactUserCard
+            <img src="./profile.png"></img>
         </div>
     )
 }
