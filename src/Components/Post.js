@@ -1,4 +1,4 @@
-const Post = () {
+const Post = () => {
     return (
         <div>
             <div>Post</div>
