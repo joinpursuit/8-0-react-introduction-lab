@@ -1,3 +1,37 @@
+.NavBar {
+  background-color: skyblue;
+  padding: 30px;
+  text-align: right;
+
+}
+.button {
+  margin-right: 10px;
+}
+
+
+.UserProfile {
+  border: 2px solid rgba(0, 7, 6, 0.986);
+  grid-row: 1;
+  grid-column: 1 / span 4;
+}
+
+
+.posts {
+  text-align: center;
+  border: 2px solid rgba(13, 49, 44, 0.986);
+  grid-row: 2 / span 5;
+  grid-column: 1 / span 4;
+  margin-top: 40px;
+}
+
+.eachPost {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+
+
+
 body {
   font-family: sans-serif;
   margin: 0;
