@@ -1,9 +1,6 @@
 function Post() {
   return (
-    <div class="post">
-      Posts
-      <p>Title</p>
-      <p>Title</p>
+    <div className="post">
       <p>Title</p>
     </div>
   );

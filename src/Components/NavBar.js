@@ -1,6 +1,6 @@
 function NavBar() {
   return (
-    <div class="navbar">
+    <div className="navbar">
       <form>
         <button type="submit">What is Pursuit?</button>
         <button type="submit">Creat an account</button>

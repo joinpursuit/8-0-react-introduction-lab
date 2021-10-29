@@ -1,4 +1,4 @@
 function UserProfile() {
-  return <p>Justin</p>;
+  return <p>Justin Diaz</p>;
 }
 export default UserProfile;

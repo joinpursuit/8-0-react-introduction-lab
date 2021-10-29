@@ -7,12 +7,21 @@ import "./index.css";
 
 const App = () => {
   return (
-    <div>
-      <p>Hello, world!</p>
+    <div className="app">
       <NavBar />
-      <Contacts />
       <UserProfile />
-      <Posts />
+      <div>
+        post
+        <Posts />
+        <Posts />
+        <Posts />
+      </div>
+      <div>
+        Contacts
+        <Contacts />
+        <Contacts />
+        <Contacts />
+      </div>
     </div>
   );
 };

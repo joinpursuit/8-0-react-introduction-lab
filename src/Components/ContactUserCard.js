@@ -1,6 +1,6 @@
 function ContactUserCard() {
   return (
-    <div class="c-card">
+    <div className="c-card">
       <p>Jordan Walke</p>
     </div>
   );

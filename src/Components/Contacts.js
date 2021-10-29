@@ -1,5 +1,5 @@
 import ContactUserCard from "./ContactUserCard.js";
 function Contacts() {
-  return ContactUserCard();
+  return <ContactUserCard />;
 }
 export default Contacts;
