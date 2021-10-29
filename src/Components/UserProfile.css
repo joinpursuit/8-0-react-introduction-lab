@@ -1,0 +1,13 @@
+.UserProfile {
+  border: 3px solid black;
+  display: flex;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin-left: 3%;
+  grid-row: 2;
+}
+.UserProfile img {
+  height: 8em;
+  width: 8em;
+  margin: 10px;
+}

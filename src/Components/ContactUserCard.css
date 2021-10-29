@@ -1,0 +1,11 @@
+.ContactUserCard {
+  border: 3px solid black;
+  margin: 1.5%;
+  display: flex;
+}
+
+.ContactUserCard img {
+  margin-right: 20px;
+  height: 9.5em;
+  width: 9.5em;
+}

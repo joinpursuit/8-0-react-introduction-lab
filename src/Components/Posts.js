@@ -1,5 +1,6 @@
 import React from 'react';
 import Post from './Post';
+import './Posts.css';
 
 class Posts extends React.Component {
   constructor() {
@@ -12,7 +13,7 @@ class Posts extends React.Component {
       { title: 'test1', content: 'test2' },
     ];
     return (
-      <div>
+      <div className="Posts">
         <h2>Posts</h2>
         {samplePost.map((item) => (
           <Post />

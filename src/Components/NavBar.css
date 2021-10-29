@@ -1,0 +1,11 @@
+.NavBar {
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.5%;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.NavBar button {
+  margin: 5px;
+}

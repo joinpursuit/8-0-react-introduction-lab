@@ -1,4 +1,5 @@
 import React from 'react';
+import './ContactUserCard.css';
 
 class ContactUserCard extends React.Component {
   constructor() {
@@ -11,11 +12,13 @@ class ContactUserCard extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="ContactUserCard">
         <img src={this.picture} />
-        <h2>{this.name}</h2>
-        <h3>{this.title}</h3>
-        <p>{this.description}</p>
+        <div>
+          <h2>{this.name}</h2>
+          <h3>{this.title}</h3>
+          <p>{this.description}</p>
+        </div>
       </div>
     );
   }

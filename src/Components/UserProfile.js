@@ -1,5 +1,6 @@
 import userEvent from '@testing-library/user-event';
 import React from 'react';
+import './UserProfile.css';
 
 class UserProfile extends React.Component {
   constructor() {
@@ -12,11 +13,13 @@ class UserProfile extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="UserProfile">
         <img src={this.picture} />
-        <h2>{this.name}</h2>
-        <h3>{this.title}</h3>
-        <p>{this.description}</p>
+        <div>
+          <h2>{this.name}</h2>
+          <h3>{this.title}</h3>
+          <p>{this.description}</p>
+        </div>
       </div>
     );
   }
