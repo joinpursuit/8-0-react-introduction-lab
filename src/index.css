@@ -49,7 +49,7 @@ button {
 }
 .user-profile{
   display: grid;
-  grid-template-columns: 0.25fr 1fr;
+  grid-template-columns: 0.19fr 1fr;
 }
 
 
@@ -76,7 +76,7 @@ button {
 
 .contact-userCard {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: .5fr 1fr;
 }
 
 .contact-userCard {
