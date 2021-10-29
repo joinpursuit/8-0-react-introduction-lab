@@ -9,15 +9,15 @@ const App = () => {
   //return jsx
   return (
     <div className="app">
-      <NavBar />
-      <UserProfile />;
-      <div>
+      <NavBar className="NavBar" />
+      <UserProfile className="Userprofile" />;
+      <div className="Posts">
         Post
         <Posts />
         <Posts />
         <Posts />
       </div>
-      <div>
+      <div className="Contacts">
         Contacts
         <Contacts />
         <Contacts />
