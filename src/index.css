@@ -83,7 +83,10 @@ button {
   border: 2px solid rgba(0, 7, 6, 0.986);
   margin: 25px 25px;
   padding: 2px 2px;
+  text-align: left;
 }
+
+
 
 h1{
   font-size: 1.2rem;
@@ -96,3 +99,4 @@ h2{
 h3{
   font-size: .7rem;
 }
+
