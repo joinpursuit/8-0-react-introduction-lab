@@ -1,6 +1,6 @@
 const NavBar = ()=> {
     return (
-        <form>
+        <form className="navbar">
             <button type="submit">What is Pursuit?</button>
             <button type="submit">Create an Account</button>
             <button type="submit">Sign In</button>

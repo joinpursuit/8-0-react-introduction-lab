@@ -2,7 +2,7 @@ import ContactUserCard from "./ContactUserCard";
 
 const Contacts = () => {
     return (
-        <div>
+        <div className="contacts">
             <h2>Contacts</h2>
             <ContactUserCard />
             <ContactUserCard />

@@ -9,3 +9,75 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.app {
+  display: grid;
+  grid-template-areas:
+  "navbar navbar navbar"
+  "user-profile user-profile contacts"
+  "posts posts contacts";
+}
+
+
+.navbar {
+  background-color: lightblue;
+  height: 50px;
+  text-align: right;
+  grid-area: navbar;
+}
+
+.navbar button {
+  margin: 6px;
+}
+
+.user-profile,
+.contacts,
+.posts {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.user-profile {
+  grid-area: user-profile;
+  display: grid;
+  grid-template-areas:
+  "photo contact ."
+}
+
+.contacts {
+  grid-area: contacts;
+}
+
+.posts {
+  grid-area: posts;
+}
+
+.contacts h2,
+.posts h2 {
+  text-align: center;
+}
+
+/* Grandchildren of App */
+.post,
+.contact-user-card {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.post {
+  text-align: center;
+}
+
+.contact-user-card {
+  display: grid;
+  grid-template-areas:
+  "photo contact ."
+}
+
+.photo {
+  grid-area: photo;
+}
+
+.contact {
+  grid-area: contact;
+}
