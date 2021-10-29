@@ -1,12 +1,7 @@
 function Post() {
   return (
-    <div class="post">
-      <p>
-        post
-        <p>post</p>
-        <p>post</p>
-        <p>post</p>
-      </p>
+    <div className="post">
+      <p>Title</p>
     </div>
   );
 }

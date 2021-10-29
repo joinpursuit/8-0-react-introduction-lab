@@ -1,7 +1,7 @@
 import Post from "./Post.js";
 
 function Posts() {
-  return Post();
+  return <Post />;
 }
 
 export default Posts;

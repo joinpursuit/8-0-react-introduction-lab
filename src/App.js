@@ -6,13 +6,23 @@ import React from "react";
 import "./index.css";
 
 const App = () => {
+  //return jsx
   return (
-    <div class="app">
-      <p>Hello, world!</p>;
+    <div className="app">
       <NavBar />
-      <Contacts />
-      <Posts />
       <UserProfile />;
+      <div>
+        Post
+        <Posts />
+        <Posts />
+        <Posts />
+      </div>
+      <div>
+        Contacts
+        <Contacts />
+        <Contacts />
+        <Contacts />
+      </div>
     </div>
   );
 };
