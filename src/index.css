@@ -71,6 +71,7 @@ button {
   border: 2px solid rgba(0, 7, 6, 0.986);
   grid-column: 5 / span 2;
   grid-row: 1 / span 6;
+  text-align: center;
 }
 
 .contact-userCard {
