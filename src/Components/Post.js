@@ -1,9 +1,8 @@
 const Post = () => {
     return (
         <div>
-            <div>Post</div>
-            <div>Post</div>
-            <div>Post</div>
+            <h2>Title</h2>
+            <p>Lorem Ipsem</p>
         </div>
     );
 }
