@@ -1,7 +1,10 @@
-const Posts = () {
+import Post from "./Post"
+const Posts = () => {
     return (
         <div>
-            <div>Posts</div>
+            <Post/>
+            <Post/>
+            <Post/>
         </div>
     );
 }
