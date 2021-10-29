@@ -1,9 +1,8 @@
 function NavBar() {
 	const navStyle = {
-		color: "white",
 		fontSize: "30px",
 		padding: "20px",
-		backgroundColor: "blue",
+		backgroundColor: "grey",
 		borderRadius: "5px",
 	};
 	return (

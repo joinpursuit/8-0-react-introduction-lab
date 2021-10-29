@@ -8,8 +8,8 @@ import "./Components/App.css";
 function App() {
 	return (
 		<>
+			<NavBar className="nav" />
 			<div className="container">
-				<NavBar className="nav" />
 				<UserProfile className="user" />
 				<Posts className="post" />
 				<Contacts className="contacts" />

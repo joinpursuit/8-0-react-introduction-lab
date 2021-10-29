@@ -2,16 +2,12 @@
 	font-family: sans-serif;
 	background-color: rgb(201, 189, 174);
 	display: grid;
-	margin: 0 auto;
+	width: 100%;
 	grid-template-areas:
-		" nav  nav  nav  nav "
-		" .  user  contact contact"
-		" .  post contact contact"
-		" post .  contact  contact";
-}
-
-.nav {
-	grid-area: nav;
+		" user contact contact"
+		" post contact contact";
+	/* grid-template-rows: 1fr 2fr 2fr;
+	grid-template-columns: 1fr 1fr; */
 }
 .user {
 	grid-area: user;
