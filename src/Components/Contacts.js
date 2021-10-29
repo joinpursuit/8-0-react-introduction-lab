@@ -2,7 +2,7 @@ import ContactUserCard from "./ContactUserCard.js";
 
 function Contacts() {
     return (
-        <div className="user-card">
+        <div className="contacts">
            <h3>{'Contacts'}</h3>
            <ContactUserCard />
            <ContactUserCard />

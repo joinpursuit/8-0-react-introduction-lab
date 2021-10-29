@@ -1,9 +1,9 @@
 function NavBar() {
     return (
         <div className="nav-bar">
-            <button type="submit"  width="200px">{'What is Pursuit?'}</button>
-            <button type="submit" width="200px">{'Create an account'}</button>
-            <button type="submit" width="10px">{'Sign in'}</button>
+            <button type="submit" >{'Sign in'}</button>
+            <button type="submit" >{'Create an account'}</button>
+            <button type="submit" >{'What is Pursuit?'}</button>
         </div>
     );
 }

@@ -9,3 +9,77 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.appDiv {
+  width: 100%;
+  margin: auto;
+  padding: 0 0 5px 5px;
+}
+
+.nav-bar {
+  background-color: rgb(176, 213, 228);
+  color: white;
+  padding: 4px 2px;
+  width: 100%;
+  min-height: 50px;
+}
+
+button {
+  float: right;
+  margin: 5px 5px;
+  padding: 8px;
+  width: max-content;
+}
+
+.container {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+  margin: 20px 10px 10px 10px;
+  background-color: rgb(240, 240, 240);
+}
+
+.user-profile {
+  border: 2px solid black;
+  grid-row: 1;
+  grid-column: 1 / span 3;
+  padding: 2px;
+}
+
+.user-profile {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+}
+
+.posts {
+  border: 2px solid black;
+  text-align: center;
+  grid-row: 2;
+  grid-column: 1 / span 3;
+}
+
+.post {
+  border: 1px solid black;
+  text-align: center;
+  margin: 25px;
+}
+
+.contacts {
+  border: 2px solid black;
+  text-align: center;
+  grid-column: 4 / span 3;
+  grid-row: 1 / span 2;
+}
+
+.user-card {
+  display: grid;
+  grid-template-columns: 0.38fr 1fr;
+}
+
+.user-card {
+  border: 1px solid black;
+  text-align: left;
+  margin: 25px 25px;
+  padding: 2px 2px;
+}
+
