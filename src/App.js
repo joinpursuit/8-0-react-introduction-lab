@@ -9,8 +9,14 @@ import UserProfile from "./Components/UserProfile";
 
 const App = () => {
   return (
-    <div className="App">
-      <NavBar />
+    <body className="App">
+      <header>
+      <NavBar>
+        <button>Uno</button>
+        <button>Dos</button>
+        <button>Tres</button>
+      </NavBar>
+      </header>
       <UserProfile />
       <Posts>
         <Post />
@@ -23,7 +29,7 @@ const App = () => {
         <ContactUserCard />
         <ContactUserCard />
       </Contacts>
-    </div>
+    </body>
   )
 };
 
