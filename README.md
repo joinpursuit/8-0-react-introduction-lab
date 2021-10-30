@@ -12,7 +12,7 @@ Edit multiple JavaScript files in this lab as you get the hang of creating and u
 
 1. Navigate to the cloned repository's directory on your command line. Then, run the following command:
 
-   ```
+      ```
    npm install
    ```
 
