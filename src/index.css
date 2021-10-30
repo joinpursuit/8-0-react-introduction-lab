@@ -9,3 +9,68 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.app {
+  display: grid;
+  grid-template-areas:
+    "navbar navbar navbar"
+    "user-profile user-profile contacts"
+    "posts posts contacts";
+}
+
+.navbar {
+  grid-area: navbar;
+  background-color: lightblue;
+  height: 50px;
+  text-align: right;
+}
+
+.navbar button {
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.user-profile {
+  grid-area: user-profile;
+  display: grid;
+  grid-template-areas: "user-pic user-info";
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.posts {
+  grid-area: posts;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.post {
+  border: 1px solid black;
+  text-align: center;
+  margin: 20px;
+}
+
+.contacts {
+  grid-area: contacts;
+  border: 1px solid black;
+  margin: 15px;
+}
+
+.contacts h2,
+.posts h2 {
+  text-align: center;
+}
+
+.contact-card {
+  display: grid;
+  grid-template-areas: "pic info";
+  border: 1px solid black;
+  margin: 30px;
+}
+.contact-pic {
+  grid-area: pic;
+}
+
+.contact-info {
+  grid-area: info;
+}
