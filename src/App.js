@@ -9,9 +9,11 @@ const App = () => {
   return (
     <>
       <NavBar />
-      <UserProfile />
-      <Posts />
-      <Contacts />
+      <div className="info-container">
+        <UserProfile />
+        <Posts />
+        <Contacts/>
+      </div>
     </>
   )
 };

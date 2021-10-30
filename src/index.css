@@ -9,3 +9,59 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.navbar-container {
+  height: 50px;
+  background-color: rebeccapurple;
+  display: flex;
+  justify-content: flex-end;
+}
+.buttons {
+  white-space: normal;
+  word-wrap: break-word;
+  padding: auto;
+  display: flex;
+  align-items: center;
+}
+.button {
+  margin: 10px;
+}
+
+.profile {
+  grid-area: "profile";
+  border: 1px dotted purple;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.contacts {
+  grid-area: "contacts";
+  border: 1px dashed green;
+}
+.posts {
+  grid-area: "posts";
+  border: 1px solid yellow;
+  text-align: center;
+}
+.info-container {
+  display: grid;
+  grid-template-areas: 
+  "profile profile contacts"
+  "posts posts contacts";
+}
+
+.post {
+  border: 1px solid black;
+  margin: 25px;
+}
+.images {
+  width: 100px;
+}
+.userCard {
+  border: 1px solid black;
+  margin: 25px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.userCardDetails {
+  
+}
