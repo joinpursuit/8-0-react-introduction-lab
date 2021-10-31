@@ -7,14 +7,13 @@ import UserProfile from "./Components/UserProfile";
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <NavBar />
       <Posts />
       <Contacts />
       <UserProfile />
-    </div> 
-  )
-  
+    </div>
+  ); 
 };
 
 export default App;

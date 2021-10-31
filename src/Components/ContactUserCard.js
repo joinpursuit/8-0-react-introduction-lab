@@ -2,7 +2,7 @@ const ContactUserCard = () => {
     return (
         <div className="contactUserCard">
             <div className="photo">
-
+                <img src={"/image.png"} alt="profileImg" />
             </div>
             <div className="contact">
                 <h2>Jordan Walke</h2>
