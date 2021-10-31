@@ -6,15 +6,17 @@ import Posts from "./Components/Posts";
 import Contacts from "./Components/Contacts";
 
 
-const App = () => {
-  return (
-    <div className="app">
-      <NavBar />
-      <UserProfile />
-      <Posts />
-      <Contacts />
-    </div>
-  )
-};
+class App extends React.Component {
+  render(){
+    return (
+      <div className="app">
+        <NavBar />
+        <UserProfile />
+        <Posts />
+        <Contacts />
+      </div>
+    )
+  }
+}
 
 export default App;
