@@ -5,7 +5,6 @@ import UserProfile from "./Components/UserProfile";
 import Posts from "./Components/Posts";
 import Contacts from "./Components/Contacts";
 
-
 class App extends React.Component {
   render(){
     return (
