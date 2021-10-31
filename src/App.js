@@ -3,14 +3,16 @@ import "./index.css";
 import NavBar from "./Components/NavBar";
 import Posts from "./Components/Posts";
 import Contacts from "./Components/Contacts";
-
+import UserProfile from "./Components/UserProfile";
 
 const App = () => {
   return (
-    <p>Hello, world!</p>
-    // <div>      
-    //   <NavBar />
-    // </div> 
+    <div>
+      <NavBar />
+      <Posts />
+      <Contacts />
+      <UserProfile />
+    </div> 
   )
   
 };
