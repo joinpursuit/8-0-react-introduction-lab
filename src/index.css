@@ -9,3 +9,105 @@ body,
   height: 100%;
   width: 100%;
 }
+
+#main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: 
+  "navbar navbar"
+  "userprofile contacts"
+  "posts contacts";
+  grid-gap: 15px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#navbar {
+  border: 1px solid black;
+  padding: 10px;
+  grid-area: navbar;
+  background-color: skyblue;
+  display: flex;
+  justify-content: flex-end;
+  /* margin: 10px; */
+}
+
+#navbar button {
+  margin: 10px;
+}
+
+#user-profile {
+  border: 1px solid black;
+  grid-area: userprofile;
+}
+
+#user-profile div {
+  font-size: small;
+  font-weight: bold;
+}
+
+#user-profile p {
+  font-size: x-small;
+}
+
+#user-profile img { 
+  width: 125px;
+  float: left;
+  margin-right: 10px;
+}
+
+
+#posts-container {
+  border: 1px solid black;
+  padding: 10px;
+  grid-area: posts;
+  text-align: center;
+}
+
+#single-post {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+#single-post p {
+  font-size: x-small;
+}
+
+.post-title {
+  font-weight: bold;
+}
+
+#contacts-container {
+  border: 1px solid black;
+  padding: 10px;
+  grid-area: contacts;
+  text-align: center;
+}
+
+#single-contact {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+#single-contact img {
+  float: left;
+  width: 70px;
+}
+
+#single-contact p {
+  font-size: x-small;
+}
+
+.contact-name {
+  font-weight: bold;
+}
+
+.contact-sub-text {
+  font-weight: 600;
+  font-size: small;
+}
+
+
