@@ -9,3 +9,72 @@ body,
   height: 100%;
   width: 100%;
 }
+
+#nav-container {
+  text-align: right;
+  background-color: powderblue;
+}
+
+#nav-container button {
+  margin: 10px;
+}
+
+#app-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "user user contacts"
+    "posts posts contacts"
+    "posts posts contacts";
+  grid-gap: 50px;
+  margin: 25px;
+}
+
+#posts-container {
+  grid-area: posts;
+  border: solid 1px black;
+  text-align: center;
+}
+.post-container {
+  border: solid 1px black;
+  margin: 25px;
+}
+.post-container > * {
+  padding: 7px;
+}
+#posts {
+  padding: 15px;
+}
+
+.profile-container {
+  grid-area: user;
+  border: solid 1px black;
+}
+.profile-text {
+  margin-left: 150px;
+  padding: 35px 0px;
+}
+
+#contacts-container {
+  grid-area: contacts;
+  border: solid 1px black;
+  padding: 5px;
+}
+#contact {
+  text-align: center;
+}
+.user-container {
+  border: solid 1px black;
+  margin: 25px;
+  overflow: auto;
+}
+.user-content {
+  padding: 35px 0px;
+  margin-left: 150px;
+}
+.user-img img {
+  width: 125px;
+  height: auto;
+  float: left;
+}
