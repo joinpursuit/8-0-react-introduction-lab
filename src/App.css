@@ -1,0 +1,73 @@
+body{
+    color: rgb(21, 0, 80);
+}
+#container{
+    display: grid;
+    grid-template-areas: 
+    "profile profile contacts"
+    "posts posts contacts";
+}
+#navbar{
+    text-align: right;
+    background-color: hotpink;
+}
+button {
+    margin: 10px;
+}
+#main-profile{
+    grid-area: profile;
+    border: 2px solid green;
+    margin: 40px;
+    padding: 25px;
+}
+#posts{
+    border: 2px solid green;
+    text-align: center;
+    margin: 40px;
+    grid-area: posts;
+
+}
+#post {
+    border: 2px solid black;
+    text-align: center;
+    margin: 50px;
+}
+#user-card{
+    display: grid;
+    grid-template-areas: 
+    "img h1 ."
+    "img h2 ."
+    "img p .";
+    border: 2px solid black;
+    margin: 40px;
+    /* text-align: center; */
+}
+#contacts{
+    border: 2px solid purple;
+    margin: 40px;
+    text-align: center;
+    grid-area: contacts;
+}
+#user-card img{
+    text-align: left;
+    grid-area: img;
+    width: 100px;
+}
+#user-card h3{
+    color:blue;
+    grid-area: h1;
+    width: 100px;
+    text-align: left;
+}
+#user-card h4{
+    color: blue;
+    grid-area: h2;
+    width: 100px;
+    text-align: left;
+}
+#user-card p{
+    color: blue;
+    grid-area: p;
+    width: 100px;
+    text-align: left;
+}
