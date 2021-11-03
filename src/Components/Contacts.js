@@ -12,6 +12,7 @@ class Contacts extends Component {
                 <ContactUserCard />
                 <ContactUserCard />
                 <ContactUserCard />
+                <ContactUserCard />
             </div>
         )
     }
