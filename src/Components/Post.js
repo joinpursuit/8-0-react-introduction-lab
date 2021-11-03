@@ -1,12 +1,17 @@
-import { Component } from "react";
+import React from "react";
 
-class Post extends Component {
+class Post extends React.Component {
     constructor() {
         super();
     }
 
     render() {
-        return null;
+        return (
+            <div className="Post">
+                <h3>Title</h3>
+                <p>Lerem Ipsem</p>
+            </div>
+        );
     }
 }
 

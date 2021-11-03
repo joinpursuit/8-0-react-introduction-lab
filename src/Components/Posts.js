@@ -1,8 +1,8 @@
-import { Component } from "react";
+import React from "react";
 import Post from "./Post";
 
 
-class Posts extends Component{
+class Posts extends React.Component{
     constructor() {
         super()
     }
@@ -10,10 +10,13 @@ class Posts extends Component{
     render (){
         return (
             <div className="Posts">
-                <div>{Post}</div>
-                <div>{Post}</div>
-                <div>{Post}</div>
+                <h2>Posts</h2>
+                <div><Post /></div>
+                <div><Post /></div>
+                <div><Post /></div>
             </div>
         )
     }
 }
+
+export default Posts;

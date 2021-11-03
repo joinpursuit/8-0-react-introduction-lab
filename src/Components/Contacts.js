@@ -1,7 +1,7 @@
-import { Component } from "react";
+import React from "react";
 import ContactUserCard from "./ContactUserCard";
 
-class Contacts extends Component {
+class Contacts extends React.Component {
     constructor(){
         super()
     }
@@ -10,10 +10,10 @@ class Contacts extends Component {
         return (
             <div className="contact-user-cards">
                 <div>
-                    {ContactUserCard};
-                    {ContactUserCard};
-                    {ContactUserCard};
-                    {ContactUserCard};
+                    <ContactUserCard />;
+                    <ContactUserCard />;
+                    <ContactUserCard />;
+                    <ContactUserCard />;
                 </div>
             </div>
         );

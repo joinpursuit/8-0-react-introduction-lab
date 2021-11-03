@@ -8,13 +8,13 @@ import Contacts from "./Components/Contacts";
 import "./index.css";
 
 const App = () => {
-  // return <p>Hello, world!</p>;
+
   return (
     <div >
-      <div>{NavBar}</div>
-      <div>{UserProfile}</div>
-      <div>{Posts}</div>
-      <div>{Contacts}</div>
+      <div><NavBar /></div>
+      <div><UserProfile /></div>
+      <div><Posts /></div>
+      <div><Contacts /></div>
     </div>
   )
 };
