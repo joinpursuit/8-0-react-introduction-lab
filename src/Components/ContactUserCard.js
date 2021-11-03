@@ -7,7 +7,7 @@ class ContactUserCard extends Component{
     render(){
         return (
             <div id="user-card">
-                <img src="" alt="profile-picture"/>
+                <img src="profile.png" alt="profile-picture"/>
                 <h3>Name</h3>
                 <h4> React Creator</h4>
                 <p>Lorum ipsim</p>

@@ -51,7 +51,7 @@ button {
 #user-card img{
     text-align: left;
     grid-area: img;
-    width: 100px;
+    height: auto;
 }
 #user-card h3{
     color:blue;
