@@ -9,3 +9,76 @@ body,
   height: 100%;
   width: 100%;
 }
+
+body {
+  display: grid;
+  grid-template-areas: 
+  "NavBar"
+  "UserProfile UserProfile Contacts"
+  "Posts Posts Contacts"
+   /* "Posts Posts Contacts"; */
+}
+
+.Nav-bar{
+  text-align: right;
+  grid-area: NavBar;
+  border: 1px solid;
+  background-color: #a5cff1;
+}
+
+.Nav-bar button {
+  margin: 10px;
+}
+
+.User-profile {
+  text-align: left;
+  grid-area: UserProfile;
+  /* border: 1px solid black; */
+  display: inline-flex;
+}
+
+.User-profile img {
+  border: 1px solid black;
+  margin: 10px;
+  width: 100px;
+}
+
+.Posts {
+  margin: 30px;
+  text-align: center;
+  grid-area: Posts;
+  border: 1px solid black;
+  color: blueviolet;
+}
+
+.Post {
+  border: 1px solid black;
+  /* width: 100px; */
+  margin: 20px;
+}
+
+.Contacts {
+  text-align: center;
+  grid-area: contacts;
+  border: 1px solid black;
+  color: purple;
+}
+
+.Contact {
+  border: 1px solid black;
+  text-align: left;
+  margin: 30px;
+  display: grid;
+  grid-template-areas: 
+  "contactImg contactInfo contactInfo contactInfo";
+}
+
+.Contact-user-info{
+  grid-area: contactInfo;
+  text-align: left;
+}
+
+.Contact img{
+  border: 1px solid black;
+  grid-area: contactImg;
+}

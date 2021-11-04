@@ -8,12 +8,13 @@ class Contacts extends React.Component {
 
     render (){
         return (
-            <div className="contact-user-cards">
+            <div className="Contacts">
                 <div>
-                    <ContactUserCard />;
-                    <ContactUserCard />;
-                    <ContactUserCard />;
-                    <ContactUserCard />;
+                    <h2>Contacts</h2>
+                    <ContactUserCard />
+                    <ContactUserCard />
+                    <ContactUserCard />
+                    <ContactUserCard />
                 </div>
             </div>
         );

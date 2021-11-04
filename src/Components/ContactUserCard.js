@@ -8,7 +8,7 @@ class ContactUserCard extends React.Component {
 
     render(){
         return (
-            <div className="Contact-user-card">
+            <div className="Contact">
                 <img src="https://cdn.pastemagazine.com/www/blogs/lists/2020/10/29/johnny-bravo-sq.png" alt="photo" />
                 <div className="Contact-user-info">
                     <h3>Jordan Walke</h3>
