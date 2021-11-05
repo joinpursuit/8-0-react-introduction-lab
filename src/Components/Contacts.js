@@ -8,7 +8,7 @@ function Contacts () {
                 <ContactUserCard />
                 <ContactUserCard />
                 <ContactUserCard />
-
+                <ContactUserCard />
         </>
     )
 }

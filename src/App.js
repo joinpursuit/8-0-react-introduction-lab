@@ -18,11 +18,11 @@ const App = () => {
         <UserProfile className="profile"/>
       </div>
 
-      <div className="box">
+      <div className="posts">
         <Posts className="posts"/> 
       </div>
 
-      <div className="box">
+      <div className="contacts">
         <Contacts className="contacts"/>
       </div>
 

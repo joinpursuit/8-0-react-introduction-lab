@@ -14,9 +14,9 @@ const profileInf = {
 function UserProfile () {
     return (
         <div>
-            <img src={profileInf.imageLink} alt= "image" width='150' height='150'></img>
-            <h3>{profileInf.name}</h3>
-            <h5>{profileInf.title}</h5>
+            <img src={profileInf.imageLink} alt= "image" width='120' height='120'></img>
+            <h4>{profileInf.name}</h4>
+            <h6>{profileInf.title}</h6>
             <p>{profileInf.text}</p>
         </div>
     )
