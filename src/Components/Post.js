@@ -7,7 +7,9 @@ class Post extends Component{
 
     render(){
         return (
-           null
+           <div>
+               Post
+           </div>
         )
     }
 

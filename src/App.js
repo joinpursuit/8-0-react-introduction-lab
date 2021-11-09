@@ -1,18 +1,22 @@
-import React from "react";
 import "./index.css";
-import NavBar from "./NavBar";
-import UserProfile from "./UserProfile";
-import Posts from "./Posts";
-import Contacts from "./Contacts";
+
+import React from "react";
+import NavBar from "./Components/NavBar";
+import UserProfile from "./Components/UserProfile";
+import Posts from "./Components/Posts";
+import Contacts from "./Components/Contacts";
 
 
 const App = () => {
   return (
-    <div id="app">
-      <NavBar />
-      <UserProfile />
-      <Posts />
-      <Contacts />
+    <div>
+       <NavBar />
+       <div className="main">
+       <UserProfile />
+       <Posts />
+       <Contacts />
+       </div>
+      
     </div>
     );
 };

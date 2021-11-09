@@ -1,6 +1,7 @@
 const { Component } = require("react");
 import Post from "./Post";
 
+
 class Posts extends Component{
     constructor(){
         super()
