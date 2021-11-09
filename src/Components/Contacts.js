@@ -1,13 +1,17 @@
 import react from "react";
+import ContactUserCard from "./ContactUserCard";
 
-const Contacts = () => {
+const ContactList = () => {
     return (
-        <div className="contacts">
+        <div className="allContacts">
             <strong>
                 Contacts
+                <ContactUserCard />
+                <ContactUserCard />
+                <ContactUserCard />
             </strong>
         </div>
     );
 };
 
-export default Contacts;
+export default ContactList;
