@@ -3,7 +3,9 @@ import React from "react";
 const Post = () => {
     return (
         <div className="eachPost">
-            Post
+            <strong>
+                Post
+            </strong>
         </div >
     );
 };

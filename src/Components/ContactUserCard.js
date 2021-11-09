@@ -3,7 +3,9 @@ import React from "react";
 const ContactUserCard = () => {
     return (
         <div className="eachContact">
-            ContactUserCard
+            <strong>
+                ContactUserCard
+            </strong>
         </div>
     );
 };

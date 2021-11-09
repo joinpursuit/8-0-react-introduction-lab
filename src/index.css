@@ -42,6 +42,7 @@ body,
 .eachPost {
   border: solid black;
   margin: 10px;
+  height: 10vh;
 }
 
 .allContacts {
@@ -53,6 +54,11 @@ body,
 
 .eachContact {
   border: solid black;
+  margin: 10px;
+  height: 15vh;
+}
+
+.contacts {
   margin: 10px;
 }
 
