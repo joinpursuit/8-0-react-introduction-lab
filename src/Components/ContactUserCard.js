@@ -1,9 +1,9 @@
-function createContactUserCard() {
+function ContactUserCard() {
     return (
         <div>
-            <div>Contact Card</div>
+            <div>User Info</div>
         </div>
     )
 }
 
-export default createContactUserCard
+export default ContactUserCard;

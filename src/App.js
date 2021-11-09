@@ -21,7 +21,6 @@ const App = () => {
         <ContactUserCard/>
         <ContactUserCard/>
         <ContactUserCard/>
-        <ContactUserCard/>
       </Contacts>
     </div>
   )
