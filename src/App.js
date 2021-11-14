@@ -12,7 +12,8 @@ class App extends Component{
   render(){
     return(
     <div>
-      <NavBar />
+     <div><NavBar /></div> 
+     <div className="main">
       <UserProfile />
       <Posts />
       <Post />
@@ -22,7 +23,7 @@ class App extends Component{
       <ContactUserCard />
       <ContactUserCard />
       <ContactUserCard />
-
+</div>
 
     </div>
   )
