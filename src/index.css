@@ -6,13 +6,15 @@ header {
   background-color:pink;
 }
 NavBar {
-  float: right;
+  float: top;
 }
 button {
   margin-right: 12px;
+  text-align: right;
 }
 .finalbtn {
   margin-right: 28px;
+  text-align: right;
 }
 .profile {
   display: grid;
