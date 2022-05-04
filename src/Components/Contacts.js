@@ -1,4 +1,5 @@
 import React from "react";
+
 import ContactUserCard from "./ContactUserCard";
 
 
@@ -8,6 +9,8 @@ const Contacts = () => {
         <ContactUserCard></ContactUserCard>
         <ContactUserCard></ContactUserCard>
         <ContactUserCard></ContactUserCard>
+        <ContactUserCard></ContactUserCard>
+
         </div>
     )
 };
