@@ -12,7 +12,7 @@ const App = () => {
       <UserProfile></UserProfile>
       <Posts></Posts>
       <Contacts></Contacts>
-      <p>Hello, world!</p>;
+      <p>Hello, world!</p>
     </div>
   )
     

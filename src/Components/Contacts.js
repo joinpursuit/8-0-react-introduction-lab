@@ -10,6 +10,6 @@ const Contacts = () => {
         <ContactUserCard></ContactUserCard>
         </div>
     )
-}
+};
 
 export default Contacts;

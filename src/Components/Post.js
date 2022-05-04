@@ -6,6 +6,6 @@ const Post = () => {
         <p>Kenyetta Griffin</p>
         </div>
     )
-}
+};
 
 export default Post;
