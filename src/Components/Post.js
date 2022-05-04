@@ -1,9 +1,9 @@
 const Post = () => {
-    return (
-        <p>
-            Hello, from Post!
-        </p>
-    )
-}
+  return (
+    <>
+      <p>Hello, from Post!</p>
+    </>
+  );
+};
 
-export default Post
+export default Post;

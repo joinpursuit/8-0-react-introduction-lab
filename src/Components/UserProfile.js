@@ -1,9 +1,5 @@
 const UserProfile = () => {
-    return (
-        <p>
-            Hello, from UserProfile!
-        </p>
-    )
-}
+  return <p>Hello, from UserProfile!</p>;
+};
 
-export default UserProfile
+export default UserProfile;

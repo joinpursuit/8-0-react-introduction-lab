@@ -1,11 +1,16 @@
-const Contacts = () => {
-    return (
-        <div> 
-            <p>
-                Hello from Contacts.js
-            </p>
-        </div>
-    )
-}
+import ContactUserCard from "./ContactUserCard";
 
-export default Contacts
+const Contacts = () => {
+  return (
+    <div>
+      <p>Hello from Contacts.js</p>
+      <ol>
+        <ContactUserCard />
+        <ContactUserCard />
+        <ContactUserCard />
+      </ol>
+    </div>
+  );
+};
+
+export default Contacts;

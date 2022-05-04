@@ -1,9 +1,16 @@
-const Posts = () => {
-    return (
-        <p>
-            Hello, from Posts!
-        </p>
-    )
-}
+import Post from "./Post";
 
-export default Posts
+const Posts = () => {
+  return (
+    <>
+      <p>Hello, from Posts!</p>
+      <ol>
+        <Post />
+        <Post />
+        <Post />
+      </ol>
+    </>
+  );
+};
+
+export default Posts;
