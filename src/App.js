@@ -1,8 +1,11 @@
 import React from "react";
 import "./index.css";
+import Contacts from "./Components/Contacts.js";
 
 const App = () => {
-  return <p>Hello, world!</p>;
+  return (
+    <Contacts/>
+  );
 };
 
 export default App;
