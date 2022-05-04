@@ -28,6 +28,7 @@ UserProfile {
   border: 1px solid purple;
   margin-bottom: 20px;
 }
+
 Contacts {
   display: grid;
   grid-template-columns: 1fr;
