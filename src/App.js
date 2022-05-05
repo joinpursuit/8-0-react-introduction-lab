@@ -1,8 +1,17 @@
-import React from "react";
-import "./index.css";
+import React from 'react';
+import NavBar from './Components/NavBar';
+import Posts from './Components/Posts';
+import './index.css';
 
 const App = () => {
-  return <p>Hello, world!</p>;
+  return (
+    <div>
+      <NavBar />
+      <main>
+        <Posts />
+      </main>
+    </div>
+  );
 };
 
 export default App;
