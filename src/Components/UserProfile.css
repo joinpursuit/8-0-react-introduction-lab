@@ -1,4 +1,5 @@
 .userCardInfo{
+    display: grid;
     
     background-color:grey;
     gap: 20px;

@@ -8,7 +8,6 @@ const NavBar = () => {
             <button className="pursuit">What is Pursuit</button>
             <button id="account">Create an account</button>
             <button id="sign">Sign In</button>
-
         </div>
     )
 };

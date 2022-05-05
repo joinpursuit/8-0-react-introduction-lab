@@ -1,8 +1,9 @@
 .NavBar{
+    display:grid;
     background-color: skyblue;
     padding-bottom: 15px;
     gap: 15px;
-    
+
     
 }
 

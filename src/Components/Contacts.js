@@ -10,7 +10,6 @@ const Contacts = () => {
         <ContactUserCard></ContactUserCard>
         <ContactUserCard></ContactUserCard>
         <ContactUserCard></ContactUserCard>
-        <ContactUserCard></ContactUserCard>
 
         </div>
     )
