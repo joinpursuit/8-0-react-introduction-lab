@@ -1,13 +1,14 @@
 import React from "react";
-import Contacts from "./Contacts";
+import "./Components.css";
 
 const ContactUserCard = () => {
   return (
-    <>
-      <Contacts />
-      <Contacts />
-      <Contacts />
-    </>
+    <div className="contactUserCard">
+      <img src="./profile.png" alt="profile.png" />
+      <p className="name">Jordan Walke</p>
+      <p className="jobTitle">React Creator</p>
+      <p className="loremIpsem">Lorem Ipsem</p>
+    </div>
   );
 };
 
