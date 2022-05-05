@@ -9,3 +9,14 @@ body,
   height: 100%;
   width: 100%;
 }
+
+#root {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+#nav-bar {
+  grid-column: span 2;
+  background-color: aqua;
+}
