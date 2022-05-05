@@ -1,14 +1,14 @@
-import ContactUserCard from "./ContactUserCard"
+import ContactUserCard from "./ContactUserCard";
 
 const Contacts = () => {
-    return (
-        <>
-        <ContactUserCard/>
-        <ContactUserCard/>
-        <ContactUserCard/>
-        <ContactUserCard/>
-        </>
-    )
-}
+  return (
+    <div>
+      <ContactUserCard />
+      <ContactUserCard />
+      <ContactUserCard />
+      <ContactUserCard />
+    </div>
+  );
+};
 
 export default Contacts;
