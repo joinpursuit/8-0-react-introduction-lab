@@ -4,11 +4,14 @@ import "./Components/post.css";
 
 import Posts from "./Components/Posts";
 import Contacts from "./Components/Contacts";
-// import NavBar from "./Components/NavBar";
-// import UserProfile from "./Components/UserProfile";
+import NavBar from "./Components/NavBar";
+import UserProfile from "./Components/UserProfile";
+
 const App = () => {
   return (
   <div className="container">
+    <NavBar />
+    <UserProfile />
     <Posts />
     <Contacts />
   </div>
