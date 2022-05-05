@@ -1,0 +1,26 @@
+.container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.post {
+    color: blue;
+    text-align: center;
+    background-color: antiquewhite;
+    border: 1px solid black; 
+};
+.back-post {
+    margin: 500px 10px 0px 10px;
+    text-align: center;
+    border: 1px solid black;
+};
+.card-image {
+    text-align: left;
+
+}
+.contact {
+    margin: 500px 10px 0px 10px;
+    text-align: center;
+
+    border: 1px solid black; 
+}
