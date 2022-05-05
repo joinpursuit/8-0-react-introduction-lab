@@ -1,0 +1,19 @@
+.NavBar{
+    background-color: skyblue;
+    padding-bottom: 15px;
+    gap: 15px;
+    
+    
+}
+
+.pursuit{
+    color: crimson;
+}
+
+#account{
+    color: darkgoldenrod;
+}
+
+#sign{
+    color: darkgreen;
+}

@@ -6,6 +6,7 @@ import ContactUserCard from "./ContactUserCard";
 const Contacts = () => {
     return (
         <div>
+
         <ContactUserCard></ContactUserCard>
         <ContactUserCard></ContactUserCard>
         <ContactUserCard></ContactUserCard>

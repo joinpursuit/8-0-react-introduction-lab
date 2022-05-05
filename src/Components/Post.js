@@ -3,7 +3,8 @@ import React from "react";
 const Post = () => {
     return (
         <div>
-        <p>Kenyetta Griffin</p>
+        <p>Title</p>
+        <h6>Lorem</h6>
         </div>
     )
 };
