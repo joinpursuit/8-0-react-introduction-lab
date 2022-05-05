@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.feed {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.post {
+    text-align: center;
+    border: 1px solid black;
+}
