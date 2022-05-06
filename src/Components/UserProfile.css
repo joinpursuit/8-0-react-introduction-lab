@@ -1,0 +1,22 @@
+.userProfile {
+  margin: 2rem 0rem 2rem 2rem;
+  border: 1px solid black;
+  grid-column: 1/1;
+  grid-row: 1/1;
+  width: 85%;
+  height: 20rem;
+  display: flex;
+}
+.userProfile img {
+  width: 200px;
+  height: 200px;
+}
+.userProfile .user {
+  padding-left: 2rem;
+}
+.userProfile .name {
+  font-size: 2rem;
+}
+.userProfile .bio {
+  font-size: 1.5rem;
+}

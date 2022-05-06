@@ -1,0 +1,11 @@
+.post {
+  margin: 2rem ;
+  border: 1px solid black;
+  padding: 1rem ;
+  width: 85%;
+  display: block;
+}
+.post h3,
+.post p {
+  text-align: center;
+}

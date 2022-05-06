@@ -1,0 +1,26 @@
+.contactUserCard {
+  margin: 4rem 1rem;
+  border: 1px solid black;
+  display: flex;
+  width: 90%;
+}
+s.contactUserCard img {
+  width: 100px;
+  height: 50px;
+}
+.contactUserCard .bio,
+.contactUserCard .name,
+.contactUserCard .description {
+  margin-left: 1rem;
+}
+.contactUserCard .name {
+  font-size: 1.5rem;
+}
+.contactUserCard .description {
+  font-size: 0.8rem;
+  text-align: center;
+}
+.contactUserCard .bio {
+  font-size: 1rem;
+  text-align: center;
+}
