@@ -9,9 +9,13 @@ const App = () => {
   return (
     <>
       <NavBar />
-      <UserProfile />
-      <Posts />
-      <Contacts />
+      <section className="two-grid-columns">
+        <main>
+          <UserProfile />
+          <Posts />
+        </main>
+        <Contacts />
+      </section>
     </>
   );
 };

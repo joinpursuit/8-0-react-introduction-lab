@@ -1,6 +1,6 @@
 const Post = () => {
   return (
-    <div>
+    <div className="border">
       <h3>Title</h3>
       <p>Post Text</p>
     </div>

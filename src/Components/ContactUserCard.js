@@ -1,8 +1,8 @@
 const ContactUserCard = () => {
   return (
-    <div>
+    <div className="border">
       <img src="../public/profile.png" alt="Profile Logo" />
-      <p>User Name</p>
+      <h4>User Name</h4>
       <p>User Title</p>
       <p>User Bio</p>
     </div>
