@@ -9,3 +9,26 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.navbar {
+  background-color: rgba(27, 210, 230, 0.969);
+}
+
+.two-grid-columns {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.border {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+input {
+  margin: 10px;
+}
