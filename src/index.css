@@ -30,6 +30,9 @@ main section {
 .user-profile {
   display: flex; border: 1px solid #333;
 }
+.user-profile div {
+  padding: 0 1rem;
+}
 .posts {
   padding: 2rem;margin: 2rem 0;border: 1px solid #333;  
 }
@@ -40,5 +43,11 @@ main section {
   padding: 1rem;margin: 1rem 0;border: 1px solid #333;  
 }
 .contacts {
-  border: 1px solid #333;
+  padding: 2rem;border: 1px solid #333;
+}
+.contacts .profile {
+  display: flex; border: 1px solid #333;
+}
+.user-profile .profile div {
+  padding: 0 1rem;
 }

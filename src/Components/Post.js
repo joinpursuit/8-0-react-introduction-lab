@@ -1,10 +1,5 @@
 import React from "react";
 
-//const Post = () => {
-//   return <li>
-//             <h2>New Post</h2>
-//             <p>Lorem Ipsum</p>    
-//          </li>
     const arrayOfPosts = [
         {
           id: 0,
@@ -23,31 +18,10 @@ import React from "react";
         },
         {
           id: 3,
-          title: 'New Post',
-          content: 'Lorem Ipsum'
-        },
-        {
-          id: 4,
-          title: 'New Post',
-          content: 'Lorem Ipsum'
+          title: 'New Post Ut velit temporibus',
+          content: 'Ut velit temporibus est itaque iusto aut reiciendis autem id quod incidunt. Vel earum debitis vel aperiam molestiae est omnis quas id voluptatem ipsum et quisquam molestias. Quo ipsam blanditiis et dolores quam ut unde fugit et sunt esse sed nobis repudiandae.'
         }
       ]
-    
-// };
-
-// export default Post;
-
-// export default function Post() {
-//     return (
-//       <div>
-//         {arrayOfPosts.map(
-//           ({ title, content }) => `<h2>${title}</h2> <p>${content}</p>.`
-//         )}
-//       </div>
-//     );
-//   }
-
-
   
 export default function Post() {
     return (

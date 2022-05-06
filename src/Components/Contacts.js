@@ -5,8 +5,6 @@ const Contacts = () => {
     return <section className="contacts">
         <h2>Contacts</h2>
         <ContactUserCard />
-        <ContactUserCard />
-        <ContactUserCard />
     </section>;
 };
 
