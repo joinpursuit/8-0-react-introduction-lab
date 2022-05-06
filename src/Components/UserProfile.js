@@ -1,5 +1,4 @@
 import React from "react";
-//import "././index.css";
 
 const UserProfile = () => {
     return <section className="user-profile">

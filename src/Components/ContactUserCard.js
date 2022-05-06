@@ -22,9 +22,9 @@ const arrayOfContacts = [
         position: 'Social Media',
         bio: 'Ex dolorum alias ut internos.'
     }
-  ]
+]
 
-  export default function ContactUserCard() {
+export default function ContactUserCard() {
     return (
         <>
         {arrayOfContacts.map(({ name, picture, position, bio, id }) => (

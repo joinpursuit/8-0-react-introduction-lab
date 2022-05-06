@@ -6,19 +6,18 @@ import Contacts from './Components/Contacts';
 import "./index.css";
 
 const App = () => {
-  return <>
-    <nav>< NavBar /></nav>
-    <main>
-      <article>
-        < UserProfile />
-        < Posts />
-      </article>
-      <aside>
-        <Contacts />
-      </aside>
-    </main>
-  </>;
-  
+    return <>
+        <nav>< NavBar /></nav>
+        <main>
+            <article>
+                <UserProfile />
+                <Posts />
+            </article>
+            <aside>
+                <Contacts />
+            </aside>
+        </main>
+    </>;
 };
 
 export default App;
