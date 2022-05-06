@@ -9,3 +9,30 @@ body,
   height: 100%;
   width: 100%;
 }
+ul {list-style: none;}
+nav { 
+  padding: 1rem; text-align: right;background-color: #8ecae6;
+}
+nav ul {
+  display: inline-flex;gap: 10px;
+}
+nav ul li {
+  margin: 0rem;
+}
+nav ul li a {
+  padding: 0.5rem 1rem;font-size: 1rem;font-weight: 800; text-decoration: none; color: #333;background-color: #f1faee;
+}
+main {
+  width: 80%;margin: 2rem auto;display: grid;grid-template-columns: 3fr 1fr;gap: 5rem;
+}
+main section {
+}
+.user-profile {
+  display: flex; border: 1px solid #333;
+}
+.posts {
+  margin: 2rem 0;border: 1px solid #333;  
+}
+.contacts {
+  border: 1px solid #333;
+}
