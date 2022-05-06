@@ -1,0 +1,12 @@
+.contacts {
+  border: 1px solid black;
+  margin: 2rem 0rem;
+  width: 95%;
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.contacts p {
+  text-align: center;
+  font-size: 2rem;
+}
