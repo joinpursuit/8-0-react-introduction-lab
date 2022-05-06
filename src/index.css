@@ -23,7 +23,7 @@ nav ul li a {
   padding: 0.5rem 1rem;font-size: 1rem;font-weight: 800; text-decoration: none; color: #333;background-color: #f1faee;
 }
 main {
-  width: 80%;margin: 2rem auto;display: grid;grid-template-columns: 3fr 1fr;gap: 5rem;
+  width: 80%;margin: 2rem auto;display: grid;grid-template-columns: 2fr 1fr;gap: 3rem;
 }
 main section {
 }
@@ -37,17 +37,20 @@ main section {
   padding: 2rem;margin: 2rem 0;border: 1px solid #333;  
 }
 .posts h2 {
-  text-align: center;  
+  margin: 0;text-align: center;  
 }
 .posts .entry {
-  padding: 1rem;margin: 1rem 0;border: 1px solid #333;  
+  padding: 1rem;margin: 2rem 0;border: 1px solid #333;  
 }
 .contacts {
   padding: 2rem;border: 1px solid #333;
 }
-.contacts .profile {
-  display: flex; border: 1px solid #333;
+.contacts h2 {
+  margin: 0;text-align: center;  
 }
-.user-profile .profile div {
+.contacts .profile {
+  margin: 2rem 0;display: flex; border: 1px solid #333;
+}
+.contacts .profile div {
   padding: 0 1rem;
 }
