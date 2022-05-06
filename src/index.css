@@ -2,10 +2,54 @@ body {
   font-family: sans-serif;
   margin: 0;
 }
-
 html,
 body,
 #root {
   height: 100%;
   width: 100%;
+}
+ul {list-style: none;}
+nav { 
+  padding: 1rem; text-align: right;background-color: #8ecae6;
+}
+nav ul {
+  display: inline-flex;gap: 10px;
+}
+nav ul li {
+  margin: 0rem;
+}
+nav ul li a {
+  padding: 0.5rem 1rem;font-size: 1rem;font-weight: 800; text-decoration: none; color: #333;background-color: #f1faee;
+}
+main {
+  width: 80%;margin: 2rem auto;display: grid;grid-template-columns: 2fr 1fr;gap: 3rem;
+}
+main section {
+}
+.user-profile {
+  display: flex; border: 1px solid #3d5a80;
+}
+.user-profile div {
+  padding: 0 1rem;
+}
+.posts {
+  padding: 2rem;margin: 2rem 0;border: 1px solid #3d5a80;  
+}
+.posts h2 {
+  margin: 0;text-align: center; font-size: 1.5rem;line-height: 2rem;font-weight: 600; 
+}
+.posts .entry {
+  padding: 1rem;margin: 2rem 0;border: 1px solid #3d5a80;  
+}
+.contacts {
+  padding: 0rem;border: 1px solid #3d5a80;
+}
+.contacts h2 {
+  margin: 1rem 0;text-align: center; font-size: 1.5rem;line-height: 1.5rem;font-weight: 600; 
+}
+.contacts .profile {
+  margin: 2rem;display: flex; border: 1px solid #3d5a80;
+}
+.contacts .profile div {
+  padding: 0 1rem;
 }
