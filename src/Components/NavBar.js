@@ -1,5 +1,7 @@
+import "./NavBar.css";
 const NavBar = () => {
-    return <p>This is my nav bar.</p>;
+    return <div id = "bar"><p id="navBar">This is my nav bar.</p> </div> ;
+  
   };
 
   export default NavBar;

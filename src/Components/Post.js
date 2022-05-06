@@ -1,5 +1,5 @@
 const Post = () => {
-    return <p>This is my first post.</p>;
+    return <p>Today was a good day.</p>;
   };
 
   export default Post;
