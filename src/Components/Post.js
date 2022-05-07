@@ -1,3 +1,4 @@
+import react from 'react';
 import './Feed.css'
 
 const Post = () => {
@@ -9,8 +10,8 @@ const Post = () => {
 
     return (
         <div className='post'>
-            <h3>{postData.title}</h3>
-            <p>{postData.text}</p>
+            <p className='title'>{postData.title}</p>
+            <p className='text'>{postData.text}</p>
         </div>
     )
 }

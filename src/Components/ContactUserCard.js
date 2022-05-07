@@ -1,4 +1,5 @@
-import './Feed.css'; 
+import react from 'react';
+import './Feed.css';  
 
 const ContactUserCard = () => {
     const contactCardInfo = {
@@ -9,10 +10,10 @@ const ContactUserCard = () => {
 
     return (
         <div className="contact-card">
-            <img src="/Users/david/Pursuit/Module3/react-introduction-lab/public/profile.png" alt="profile pic" />
-            <h3>{contactCardInfo.name}</h3>
-            <h4>{contactCardInfo.jobTitle}</h4>
-            <p>{contactCardInfo.text}</p>
+            <img src="./profile.png" alt="profile.png" />
+            <p className='name'>{contactCardInfo.name}</p>
+            <p className='jobTitle'>{contactCardInfo.jobTitle}</p>
+            <p className='text'>{contactCardInfo.text}</p>
         </div>
     )
 }
