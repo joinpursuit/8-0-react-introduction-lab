@@ -1,6 +1,38 @@
 body {
   font-family: sans-serif;
-  margin: 0;
+  margin: 10px;
+}
+
+.main{
+  display:grid;
+  grid-template-areas: 
+  'left left contact'; 
+}
+
+.contacts{
+  height: 75%;
+  grid-area: contact;
+  text-align: center;
+}
+
+
+.left{
+  grid-area: left;
+}
+
+.posts{
+  text-align: center;
+  /* margin: 15px; */
+}
+.post{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+article{
+  border: solid black 1px;
+  margin: 5px;
 }
 
 html,
