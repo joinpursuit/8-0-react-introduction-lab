@@ -9,3 +9,28 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.body {
+  display:grid;
+  grid-column: repeat(6, 1fr);
+
+}
+
+.navBar {
+  padding: 15px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+button {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.userCardInfo {
+  border: 2px solid black;
+  grid-row: 2/7;
+  
+}
