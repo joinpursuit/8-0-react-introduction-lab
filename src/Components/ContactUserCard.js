@@ -1,15 +1,17 @@
-const contactObj = {
-    name: "Jordan Walke",
-    occupation: "React Creator",
-    notes: "Lorem Ipsem"
-}
 const ContactUserCard = () => {
+    const contactObj = {
+        name: "Jordan Walke",
+        occupation: "React Creator",
+        notes: "Lorem Ipsem"
+    }
+
     return (
         <div>
-            {contactObj.name}
-            {contactObj.occupation}
-            {contactObj.notes}
+            <img src="./profile.png" alt="profile.png" />
+            <p>{contactObj.name}</p>
+            <p>{contactObj.occupation}</p>
+            <p>{contactObj.notes}</p>
         </div>
     )
 }
-export default ContactUserCard
+export default ContactUserCard;

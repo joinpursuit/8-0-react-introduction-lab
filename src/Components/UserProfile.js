@@ -1,8 +1,8 @@
 const UserProfile = () => {
     return (
-        <>
-            <p>User Profile</p>
-        </>
+        <div>
+            <h2>User Profile</h2>
+        </div>
     )
 }
 

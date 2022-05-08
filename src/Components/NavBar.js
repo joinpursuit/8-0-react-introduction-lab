@@ -1,8 +1,9 @@
 const NavBar = () => {
     return (
-        <>
-            <p>NavBar</p>
-        </>
+        <div>
+            <img src="./profile.png" alt="profile.png" />
+            <h1>NavBar</h1>
+        </div>
     )
 }
 

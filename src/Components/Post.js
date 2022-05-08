@@ -1,13 +1,15 @@
-const PostObj = {
-    title: "Title",
-    description: "Lorem Ipsem",
-}
 const Post = () => {
+    const PostObj = {
+        title: "Title",
+        description: "Lorem Ipsem",
+    }
+
     return (
         <div>
-            {PostObj.title}
-            {PostObj.description}
+            <p>{PostObj.title}</p>
+            <p>{PostObj.description}</p>
         </div>
-    )
-}
-export default Post
+    );
+};
+
+export default Post;
