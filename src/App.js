@@ -13,7 +13,7 @@ const App = () => {
   <Posts />
   <Contacts /> 
   </div>
-  )
+  );
 };
 
 export default App;
