@@ -9,3 +9,30 @@ body,
   height: 100%;
   width: 100%;
 }
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr ;
+}
+
+#header {
+  height: 50px;
+  background-color: aqua;
+  text-align: right;
+  padding: 20px;
+}
+#userpfp {
+  background-color: lightgrey;
+  border: 5px solid black;
+  text-align: center;
+}
+#posts {
+background-color: lightcoral;
+border: 5px dashed blue;
+text-align: center;
+}
+#contacts {
+  background-color: lavenderblush;
+  border: 5px solid pink;
+  text-align: center;
+}
