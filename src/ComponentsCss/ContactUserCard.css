@@ -1,0 +1,24 @@
+.ContactUserCard {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid;
+  width: 80%;
+  height: auto;
+  margin: 25px;
+}
+
+.contact-pic {
+  display: flex;
+  justify-content: left;
+  width: 40%;
+  height: 40%;
+}
+
+.contact-style {
+  display: inline-block;
+  gap: 10px;
+  margin: 10px;
+  width: 100%;
+  line-height: 0.55em;
+  font-size: 0.55em;
+} 

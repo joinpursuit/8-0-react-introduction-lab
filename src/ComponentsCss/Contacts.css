@@ -1,0 +1,12 @@
+.Contacts {
+  display: inline-flexbox;
+  align-content: flex-end;
+  border: 2px solid;
+  width: 30%;
+  text-align: center;
+  top: 95px;
+  right: 25px;
+  height: auto;
+  position: absolute;
+}
+
