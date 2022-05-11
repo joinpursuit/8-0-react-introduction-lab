@@ -1,0 +1,8 @@
+.Posts {
+  display: inline-flexbox;
+  border: 2px solid;
+  text-align: center;
+  margin: 20px;
+  width: 55%;
+  height: auto;
+}

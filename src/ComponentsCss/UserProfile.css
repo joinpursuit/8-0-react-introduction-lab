@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid;
+  width: 55%;
+  height: 150px;
+  margin: 20px;
+
+}
+
+.profile-pic {
+  display: flex;
+  justify-content: left;
+  width: 150px;
+	height: auto;
+  border: 1px solid;
+}
+
+.profile-style {
+  display: inline-block;
+  gap: 10px;
+  margin: 10px;
+  line-height: 0.75em;
+  font-size: 0.75em;
+}
+
+
+
+
