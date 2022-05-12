@@ -1,6 +1,13 @@
 body {
   font-family: sans-serif;
   margin: 0;
+  display: grid;
+  grid-template-areas: 
+  N N N
+  P
+  P
+  P;
+  background-color: blueviolet;
 }
 
 html,
@@ -8,4 +15,13 @@ body,
 #root {
   height: 100%;
   width: 100%;
+}
+.NavBar{
+  grid-area: N;
+  background-color:blue;
+}
+.Post{
+grid-area: P;
+ background-color: blue;
+ color: white;
 }
