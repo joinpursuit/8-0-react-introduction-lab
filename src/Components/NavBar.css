@@ -1,0 +1,10 @@
+.button {
+    background-color: rgb(29, 39, 43);
+}
+
+.navbar {
+    display: flex;
+    justify-content: right;
+    background-color: skyblue;
+    padding: 10px;
+}
