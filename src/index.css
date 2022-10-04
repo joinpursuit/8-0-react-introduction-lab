@@ -9,3 +9,54 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.nav {
+  background-color: lightblue;
+  text-align: right;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.nav button {
+  margin-right: 20px;
+}
+
+.profile {
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 70% auto;
+  column-gap: 20px;
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+.contacts {
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+.posts {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 20px;
+}
