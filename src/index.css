@@ -8,4 +8,18 @@ body,
 #root {
   height: 100%;
   width: 100%;
+ 
+}
+
+/* CSS for Lab Additions */
+#root {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 5% 95%;
+}
+
+.navBar {
+  grid-row: 1;
+  grid-column: span 2;
+  justify-self: flex-end;
 }
