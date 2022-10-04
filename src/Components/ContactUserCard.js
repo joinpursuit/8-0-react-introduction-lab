@@ -1,7 +1,10 @@
+import Description from "./Description";
 
-export function ContactUserCard() {
+export function ContactUserCard({object}) {
+   
     return(
-        <p>Contact User Card</p>
+        <Description name = {object.name} job = {object.job} other = {object.other} />
+
     )
 }
 
