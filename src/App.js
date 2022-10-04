@@ -10,12 +10,8 @@ const App = () => {
   return (
   <>
   <NavBar/>
-  <UserProfile/>
-  <Post/>
-  <Contacts/>
+ 
   </>
-  //Return components according to the map. 
-  
   )
 };
 
