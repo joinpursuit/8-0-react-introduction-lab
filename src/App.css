@@ -1,0 +1,21 @@
+.mainContainer {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 30px;
+}
+
+aside {
+  margin-top: 15px;
+  border: 2px solid black;
+  padding: 16px;
+  background-color: rgb(227, 217, 219);
+  border-radius: 12px;
+}
+
+.profile {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  row-gap: 30px;
+  margin: 20px;
+}

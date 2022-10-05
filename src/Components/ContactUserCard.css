@@ -1,0 +1,13 @@
+.contactCard {
+  border: 2px solid black;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(251, 244, 235);
+}
+
+.forPic {
+  height: 80%;
+  width: auto;
+  padding: 8px;
+}
