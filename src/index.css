@@ -9,3 +9,40 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.navbar{
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(8 , auto);
+  padding: 10px;
+  column-gap: 10px;
+  justify-content: end;
+  background-color: lightblue;
+  margin-bottom: 30px;
+}
+.main{
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+  column-gap: 1em;
+}
+.card{
+  border: 1px black solid;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px;
+}
+.contacts{
+  border: 1px solid black;
+  text-align: center;
+  
+}
+.posts{
+  border: 1px solid black;
+  text-align: center;
+}
+.post{
+  border: 1px solid black;
+  margin: 20px;
+}
