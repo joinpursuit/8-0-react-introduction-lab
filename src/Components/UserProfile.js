@@ -3,7 +3,7 @@
 function UserProfile() {
   return (
     <div id="UserProfile">
-        <img></img>
+        <img src="./profile.png" alt="ProfilePic"></img>
     </div>
   );
 }
