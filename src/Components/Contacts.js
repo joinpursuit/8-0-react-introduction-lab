@@ -1,15 +1,17 @@
 import ContactUserCard from "./ContactUserCard"
+import UserContact from "./UserContact.css"
+
 
 function Contacts(){
     return (
-        <div>
+        <aside id="contacts">
             <p>Contacts</p>
-            <ul>
+            <ul id="card">
             <ContactUserCard/>
             <ContactUserCard/>
             <ContactUserCard/>
             </ul>
-        </div>
+        </aside>
     )
 }
 

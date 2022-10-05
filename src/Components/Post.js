@@ -1,7 +1,10 @@
+import Position from "./Positions.css"
+
 function Post(){
     return(
         <div>
-            <li>
+            <br></br>
+            <li id="Post">
                 Title
             </li>
         </div>

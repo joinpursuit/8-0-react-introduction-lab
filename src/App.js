@@ -4,15 +4,25 @@ import UserProfile from "./Components/UserProfile";
 import Posts from "./Components/Posts"
 import Contacts from "./Components/Contacts"
 import "./index.css";
+import Apps from "./Components/Apps.css"
 
 const App = () => {
   return(
-    <div>
+    <div id="info">
+
       <NavBar/>
+
+      <section id="user">
+        <div id="person">
       <UserProfile/>
       <Posts/>
-      <Contacts/>
+        </div>
 
+      <form id="profile">
+      <Contacts/>
+      </form>
+
+      </section>
     </div>
   )
 };

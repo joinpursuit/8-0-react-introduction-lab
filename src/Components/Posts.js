@@ -1,9 +1,11 @@
 import Post from "./Post"
+import CPosts from "./CPosts.css"
 
 function Posts(){
     return (
-        <div>
-            <ul>
+        <div id="posts">
+            <ul id="titles">
+            <p>Posts</p>
             <Post/>
             <Post/>
             <Post/>
