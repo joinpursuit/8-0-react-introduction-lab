@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+
+#root{
+display: grid;
+grid-template-rows: 1fr;
+}
+
+#info{
+    display: grid;
+    grid-template-rows: 5% 2fr;
+    grid-row-gap: 5%;
+}
+
+#user{
+    display: grid;
+    grid-template-columns: 2fr 1fr
+
+}
+
+#person{
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    grid-row-gap: 10%;
+}
+

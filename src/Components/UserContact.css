@@ -1,0 +1,17 @@
+#contacts{
+    text-align: center;
+    border: solid black 1px;
+    height: 60%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+ 
+    display: grid;
+    grid-template-rows: 10% 1fr
+}
+
+#card{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}

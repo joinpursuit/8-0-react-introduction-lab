@@ -1,0 +1,9 @@
+#contact-profile{
+    height: 40px
+}
+
+#contacts-list{
+    border: black solid 1px;
+    
+    list-style: none;
+}

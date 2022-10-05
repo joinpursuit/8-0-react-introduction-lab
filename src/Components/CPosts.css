@@ -1,0 +1,12 @@
+#posts{
+    text-align: center;
+    border: black 1px solid;
+    margin-bottom: 30%;
+    margin-left: 20px;
+}
+
+#titles{
+    list-style: none;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}

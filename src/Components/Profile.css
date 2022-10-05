@@ -1,0 +1,11 @@
+#profiles{
+    border: 1px solid black;
+    margin: auto;
+    width: 75%;
+    height: 130%;
+    padding: 10px;
+}
+
+#img{
+    height: 70px
+}
