@@ -9,3 +9,72 @@ body,
   height: 100%;
   width: 100%;
 }
+
+main {
+  background-color: skyblue;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: right;
+  padding: 20px 0;
+}
+
+main button {
+  margin: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 40px;
+  padding: 30px;
+  row-gap: 50px;
+  column-gap: 50px;
+}
+
+.profile {
+  grid-column: 1/3;
+  justify-content: left;
+  border: 1px solid black;
+}
+
+.profile img {
+  height: 75%;
+}
+
+.posts {
+  grid-row: 2/4;
+  grid-column: 1/3;
+  border: 1px solid black;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 0.25fr 1fr 1fr 1fr;
+}
+
+.title {
+  border: 1px solid black;
+  margin: 40px;
+}
+
+.contacts {
+  grid-row: 1/4;
+  grid-column: 3/4;
+  border: 1px solid black;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 0.25fr 1fr 1fr 1fr;
+}
+
+.contact {
+  border: 1px solid black;
+  margin: 40px;
+  padding-top: 20px;
+}
+
+.contact img {
+  display: grid;
+  justify-content: left;
+  width: 50%;
+  height: 100%;
+}
