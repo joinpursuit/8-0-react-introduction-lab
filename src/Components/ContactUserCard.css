@@ -1,12 +1,13 @@
 .contactCard {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-
   border: 2px solid black;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(251, 244, 235);
 }
 
 .forPic {
-  height: 100%;
+  height: 80%;
   width: auto;
-  justify-content: left;
+  padding: 8px;
 }

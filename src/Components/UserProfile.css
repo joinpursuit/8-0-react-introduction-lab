@@ -1,4 +1,16 @@
 .profileBox {
   border: 2px solid black;
-  background-color: rgb(245, 208, 213);
+  background-color: rgb(246, 231, 233);
+  display: flex;
+  justify-content: space-around;
+  border-radius: 12px;
+}
+
+.profileText {
+  text-align: center;
+}
+
+.profileImg {
+  height: 80%;
+  padding: 8px;
 }

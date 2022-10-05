@@ -1,6 +1,8 @@
+import "./Post.css";
+
 const Post = () => {
   return (
-    <div>
+    <div className="singlePost">
       <h3>Title</h3>
       <p>Whatever you wish</p>
     </div>

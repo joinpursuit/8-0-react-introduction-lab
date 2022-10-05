@@ -1,8 +1,9 @@
+import "./Posts.css";
 import Post from "./Post";
 
 const Posts = () => {
   return (
-    <div>
+    <div className="posts">
       <h3>Posts</h3>
       <Post />
       <Post />
