@@ -8,7 +8,7 @@ export function Contacts() {
         {name: `C`, job:`work`, other:`painter`},
     ]
     return(
-        <ul>
+        <ul>Contacts
             {contact.map(obj => {
                 return(
                     <li>
@@ -17,10 +17,6 @@ export function Contacts() {
                     </li>
                 )
             })}
-                {/* <li><ContactUserCard /></li>
-                <li><ContactUserCard /></li>
-                <li><ContactUserCard /></li>
-                <li><ContactUserCard /></li> */}
         
         </ul>
         

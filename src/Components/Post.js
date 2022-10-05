@@ -1,7 +1,10 @@
 
 export function Post() {
     return (
-            <p>Post</p>
+            <div className="Post">
+                <h4>Title</h4>
+                <p>Lorem Ipsem</p>
+            </div>
       
     )
 }

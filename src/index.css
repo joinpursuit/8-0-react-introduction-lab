@@ -14,13 +14,13 @@ body,
 
 /* CSS for Lab Additions */
 * {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 #root {
   display: grid;
   grid-template-columns: 65% 35%;
   grid-template-rows: 5% 30% 65%;
-  row-gap: 30px;
+  row-gap: 20px;
   column-gap: 15px;
 }
 
@@ -30,6 +30,7 @@ body,
   display: flex;
   justify-content: flex-end;
   background-color: rgb(9, 197, 249);
+  
 }
 
 button {
@@ -51,17 +52,36 @@ img {
 .description{
   margin: 0 10px;
   text-align: center;
-  width: 100%;
+  width: max-content;
   
 }
 
 ul {
   grid-column: 2;
-  grid-row: span 3;
+  grid-row: span 2;
   margin: 0;
   padding: 0;
+  text-align: center;
+  display: grid;
+  align-items: center;
 }
 li {
   display: flex;
   border: 3px solid rgb(154, 11, 11);
+}
+
+.Posts {
+  grid-row: 3/4;
+  grid-column: 1;
+  text-align: center;
+  height: max-content;
+  display: grid;
+  justify-items: center;
+}
+
+.Post {
+  width:100%;
+  height: max-content;
+  margin: none;
+  border: 1px solid black;
 }
