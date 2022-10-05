@@ -4,6 +4,8 @@ const Posts = () => {
     <div className="Posts">
       <h2>Posts</h2>
       <Post />
+      <Post />
+      <Post />
     </div>
   )
 }
