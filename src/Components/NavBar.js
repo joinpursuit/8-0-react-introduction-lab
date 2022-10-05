@@ -1,11 +1,18 @@
 import "./NavBar.css";
+
 const NavBar = () => {
   return (
     <div className="Header">
       <header>
-        <button type="submit">What is Pursuit?</button>
-        <button type="submit">Creat an account</button>
-        <button type="submit">Sign in</button>
+        <button className="What" type="submit">
+          What is Pursuit?
+        </button>
+        <button className="Account" type="submit">
+          Creae an account
+        </button>
+        <button className="SignIn" type="submit">
+          Sign in
+        </button>
       </header>
     </div>
   );

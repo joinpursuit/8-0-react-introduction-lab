@@ -1,18 +1,22 @@
 .Header {
-  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 1fr;
   background: lightskyblue;
   text-align: right;
-  height: 2.3vh;
   padding-top: 15px;
   padding-bottom: 15px;
-  justify-content: center;
+  padding-right: 5px;
 }
-
+/* 
 .What {
-  justify-content: right;
-  /* padding: 10px;
-  margin-right: 10px; */
+grid-ga
 }
 
-.Pursuit {
+.Account {
+  margin-left: 50px;
 }
+
+.SignIn {
+  margin-left: 50px;
+  padding-left: 50px;
+} */

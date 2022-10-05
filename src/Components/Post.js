@@ -1,6 +1,7 @@
+import "./Post.css";
 function Post() {
   return (
-    <div>
+    <div className="Post">
       <h1>Title</h1>
       <p>Info</p>
     </div>
