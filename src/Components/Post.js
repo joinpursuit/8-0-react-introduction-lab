@@ -1,10 +1,5 @@
 const Post = () => {
-  return (
-    <div className="Post">
-      Post
-      <li></li>
-    </div>
-  )
+  return <div className="Post">Post</div>
 }
 
 export default Post

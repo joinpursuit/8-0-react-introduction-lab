@@ -1,10 +1,5 @@
 const ContactUserCard = () => {
-  return (
-    <div className="ContactUserCard">
-      ContactUserCard
-      <li></li>
-    </div>
-  )
+  return <div className="ContactUserCard">ContactUserCard</div>
 }
 
 export default ContactUserCard

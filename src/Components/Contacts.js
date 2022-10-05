@@ -4,10 +4,12 @@ const Contacts = () => {
   return (
     <div className="Contacts">
       <h2>Contacts</h2>
-      <ContactUserCard />
-      <ContactUserCard />
-      <ContactUserCard />
-      <ContactUserCard />
+      <ul>
+        <ContactUserCard />
+        <ContactUserCard />
+        <ContactUserCard />
+        <ContactUserCard />
+      </ul>
     </div>
   )
 }

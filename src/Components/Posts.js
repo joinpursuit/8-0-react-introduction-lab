@@ -3,9 +3,11 @@ const Posts = () => {
   return (
     <div className="Posts">
       <h2>Posts</h2>
-      <Post />
-      <Post />
-      <Post />
+      <ul>
+        <Post />
+        <Post />
+        <Post />
+      </ul>
     </div>
   )
 }
