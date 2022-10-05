@@ -1,0 +1,21 @@
+.UserProfile {
+  background-color: pink;
+  margin: 0;
+  display: flex;
+}
+
+.aboutUser {
+  text-align: center;
+  margin-right: 20px;
+}
+
+img {
+  width: auto;
+  height: 70%;
+  padding: 8px;
+}
+/* .userName,
+.job,
+.bio {
+  text-align: center;
+} */

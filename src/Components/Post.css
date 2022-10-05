@@ -1,0 +1,5 @@
+.post {
+  display: grid;
+  border: 2px solid palevioletred;
+  margin: 10px;
+}

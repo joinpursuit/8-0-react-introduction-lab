@@ -9,3 +9,20 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.Container {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  border: 2px solid seagreen;
+  column-gap: 30px;
+  margin-top: 20px;
+}
+
+.Main {
+  display: grid;
+  grid-template-rows: repeat(1, 2fr);
+  row-gap: 30px;
+  border: 2px solid pink;
+  margin-right: 10px;
+}
