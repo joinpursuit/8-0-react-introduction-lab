@@ -1,7 +1,10 @@
 function UserProfile() {
   return (
-    <div>
-      <img src="../public/profile.png"></img>
+    <div className="UserProfile">
+      <img src="./profile.png" alt="Profile pic"></img>
+      <h1>User Name</h1>
+      <h6>React Creator</h6>
+      <p>Bio</p>
     </div>
   );
 }
