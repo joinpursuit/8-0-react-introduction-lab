@@ -8,11 +8,15 @@ import './index.css';
 
 const App = () => {
   return (
-    <div>
+    <div className="Nav">
       <NavBar />
-      <UserProfile />
-      <Posts />
-      <Contacts />
+      <div className="Container">
+        <div className="Main">
+          <UserProfile />
+          <Posts />
+        </div>
+        <Contacts />
+      </div>
     </div>
   );
 };

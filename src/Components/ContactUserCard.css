@@ -1,0 +1,12 @@
+.img {
+  background-color: blanchedalmond;
+  margin: auto;
+  border: 2px solid skyblue;
+  margin-bottom: 30px;
+}
+
+.name,
+.job,
+.about {
+  text-align: center;
+}

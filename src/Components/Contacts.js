@@ -1,12 +1,14 @@
 import ContactUserCard from './ContactUserCard';
-
+import './Contacts.css';
 const Contacts = () => {
   return (
-    <aside>
-      <ContactUserCard />
-      <ContactUserCard />
-      <ContactUserCard />
-    </aside>
+    <div className="asideContainer">
+      <aside className="Aside">
+        <ContactUserCard />
+        <ContactUserCard />
+        <ContactUserCard />
+      </aside>
+    </div>
   );
 };
 

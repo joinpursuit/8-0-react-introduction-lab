@@ -1,0 +1,10 @@
+.posts {
+  display: grid;
+  border: 2px solid springgreen;
+  margin-bottom: 20px;
+  background-color: lightyellow;
+}
+
+.title {
+  text-align: center;
+}

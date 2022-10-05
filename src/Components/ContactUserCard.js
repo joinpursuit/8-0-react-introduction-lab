@@ -1,9 +1,12 @@
+import './ContactUserCard.css';
+
 const ContactUserCard = () => {
   return (
-    <div>
-      <h1> Jordan Walker</h1>
-      <h3>React Creator</h3>
-      <p>lorem Ipsem</p>
+    <div className="img">
+      <img src="..//profile.png" alt="Profile pic"></img>
+      <h1 className="name"> Shaik Kamil</h1>
+      <h3 className="job">React Creator</h3>
+      <p className="about">lorem Ipsem</p>
     </div>
   );
 };

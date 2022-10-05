@@ -1,0 +1,30 @@
+.Navigation {
+  /* display: grid; */
+  text-align: right;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  border: 2px solid red;
+  background-color: aqua;
+  height: 3vh;
+  padding-right: 50px;
+  justify-content: right;
+}
+
+.Pursuit {
+  text-align: center;
+  justify-content: space-evenly;
+  margin-right: 50px;
+  padding: auto;
+}
+
+.Account {
+  margin-right: 50px;
+  justify-content: space-evenly;
+  padding: auto;
+}
+
+.SignIn {
+  margin-right: 20px;
+  justify-content: space-evenly;
+  padding: auto;
+}
