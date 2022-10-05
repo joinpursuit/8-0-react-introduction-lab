@@ -1,8 +1,10 @@
+import ContactUserCard from "./ContactUserCard"
+
 const Contacts = () => {
   return (
     <div className="Contacts">
-      <h1>Contacts</h1>
-      <ul></ul>
+      <h2>Contacts</h2>
+      <ContactUserCard />
     </div>
   )
 }
