@@ -1,0 +1,12 @@
+.contactCard {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+  border: 2px solid black;
+}
+
+.forPic {
+  height: 100%;
+  width: auto;
+  justify-content: left;
+}

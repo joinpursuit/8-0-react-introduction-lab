@@ -1,0 +1,22 @@
+.header {
+  padding: 18px;
+  height: 10vh;
+  background-color: rgb(155, 217, 241);
+  width: 100%;
+  align-content: center;
+  text-align: right;
+}
+
+#pursuitButton {
+  margin-right: 20px;
+}
+
+#accountButton {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+#signInButton {
+  margin-left: auto;
+  margin-right: 0px;
+}
