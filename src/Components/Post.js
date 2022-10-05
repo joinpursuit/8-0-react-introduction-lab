@@ -1,11 +1,9 @@
 import React from "react";
-
+import Posts from "./Posts.js";
 const Post = () => {
     return (
         <>
-        <div></div>
-        <div></div>
-        <div></div>
+        <Posts/>
         </>
     )
 }
