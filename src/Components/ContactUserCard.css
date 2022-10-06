@@ -1,10 +1,11 @@
 .contactUserCard {
     border: 2px solid black;
-    margin: auto;
-    margin-bottom: 30px;
     width: fit-content;
     height: fit-content;
     display: flex;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
 
 .pic {

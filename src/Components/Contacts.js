@@ -3,13 +3,18 @@ import "./Contacts.css";
 
 const Contacts = () => {
   return (
-    <div className="contactsContainer">
+    <aside className="contactsContainer">
       <h2>Contacts</h2>
       <ContactUserCard />
       <ContactUserCard />
       <ContactUserCard />
       <ContactUserCard />
-    </div>
+      <ContactUserCard />
+      <ContactUserCard />
+      <ContactUserCard />
+      <ContactUserCard />
+      <ContactUserCard />
+    </aside>
   );
 };
 
