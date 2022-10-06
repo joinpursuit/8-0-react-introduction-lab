@@ -1,0 +1,32 @@
+.profile {
+  display: flex;
+  justify-content: safe;
+  position: absolute;
+  left: 20px;
+  top: 70px;
+  margin: 0 2rem;
+  height: 20vh;
+  width: 65vw;
+  border-radius: 2rem;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+  z-index: 10;
+}
+
+.inner {
+  display: flex;
+  height: 70%;
+}
+
+.profile img {
+  border-radius: 2rem;
+}
+
+.user {
+  margin-left: 1.5rem;
+  line-height: 5px;
+}

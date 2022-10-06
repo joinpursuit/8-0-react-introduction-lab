@@ -1,0 +1,23 @@
+.conProf {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0.5rem;
+  border-radius: 2rem;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.5)
+  );
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.3);
+  z-index: 100;
+  padding-right: 4rem;
+}
+
+.conImg img {
+  border-radius: 2rem;
+}
+
+.conInfo {
+  margin-left: 1rem;
+}

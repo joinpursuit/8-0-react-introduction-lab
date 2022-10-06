@@ -1,0 +1,19 @@
+.ps {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 50px;
+  bottom: 5px;
+  border-radius: 2rem;
+  text-align: center;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+  z-index: 10;
+  width: 65vw;
+  height: 65vh;
+}

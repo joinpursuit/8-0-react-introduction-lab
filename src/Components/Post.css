@@ -1,0 +1,14 @@
+.p {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  margin: 1rem 3rem;
+  margin-top: -2px;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.5)
+  );
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.3);
+  z-index: 100;
+}
