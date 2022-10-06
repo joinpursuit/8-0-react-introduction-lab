@@ -5,6 +5,8 @@ const Contacts = () => {
     <div>
       Contacts
       <ContactUserCard />
+      <ContactUserCard />
+      <ContactUserCard />
     </div>
   );
 };
