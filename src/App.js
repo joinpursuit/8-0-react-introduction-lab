@@ -4,14 +4,23 @@ import UserProfile from "./Components/UserProfile";
 import Posts from "./Components/Posts";
 import Contacts from "./Components/Contacts";
 import "./index.css";
+import "./App.css";
 
 const App = () => {
   return (
-    <div>
-      <NavBar />
-      <UserProfile />
-      <Posts />
-      <Contacts />
+    <div className="app">
+      <div className="nav">
+        <NavBar />
+      </div>
+      <div className="userProfile">
+        <UserProfile />
+      </div>
+      <div className="pos">
+        <Posts />
+      </div>
+      <div className="Con">
+        <Contacts />
+      </div>
     </div>
   );
 };

@@ -1,10 +1,16 @@
+import "./UserProfile.css";
+
 export default function UserProfile() {
   return (
-    <div>
-      <img src="./profile.png"></img>
-      <h3>Jordan Walke</h3>
-      <h5>React Creator</h5>
-      <p>Lorem</p>
+    <div className="profile">
+      <div className="inner">
+        <img src="./profile.png"></img>
+        <div className="user">
+          <h2>Fadila Ali</h2>
+          <h4>This React Page Creator</h4>
+          <p>Pursuit 9.1 Fellow</p>
+        </div>
+      </div>
     </div>
   );
 }

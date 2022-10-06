@@ -1,0 +1,31 @@
+/* .app {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 0.1fr 0.9fr 1fr;
+  grid-template-areas:
+    "nav nav"
+    "user con"
+    "pos con";
+  justify-content: baseline;
+}
+
+.nav {
+  border: 1px solid black;
+  grid-area: nav;
+}
+
+.userProfile {
+  border: 1px solid black;
+  grid-area: user;
+  align-items: center;
+}
+.con {
+  border: 1px solid black;
+  grid-area: con;
+}
+
+.pos {
+  border: 1px solid black;
+  grid-area: pos;
+} */

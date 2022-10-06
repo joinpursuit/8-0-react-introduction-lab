@@ -1,6 +1,12 @@
 body {
   font-family: sans-serif;
   margin: 0;
+  background: linear-gradient(
+    to right bottom,
+    rgba(02, 255, 255, 0.8),
+    rgba(02, 255, 255, 0.4)
+  );
+  z-index: 1;
 }
 
 html,

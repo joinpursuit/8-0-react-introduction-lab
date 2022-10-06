@@ -1,0 +1,32 @@
+.nav {
+  background-color: #4142ea;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+button {
+  margin: 0 1rem;
+  border-radius: 2rem;
+  border: none;
+  padding: 5px;
+  color: aqua;
+  border-radius: 0.5rem;
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.8)
+  );
+}
+
+button:hover {
+  color: #000000;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  background: linear-gradient(
+    to right bottom,
+    rgba(232, 249, 14, 1),
+    rgba(232, 249, 14, 1)
+  );
+}
