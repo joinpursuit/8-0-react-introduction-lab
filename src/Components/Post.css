@@ -1,0 +1,9 @@
+.Post {
+  display: grid;
+  border: 2px solid black;
+  margin: 20px;
+  text-align: center;
+}
+.PostTitle {
+  text-align: center;
+}

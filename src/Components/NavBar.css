@@ -1,0 +1,22 @@
+.Header {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: lightskyblue;
+  text-align: right;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 5px;
+}
+/* 
+.What {
+grid-ga
+}
+
+.Account {
+  margin-left: 50px;
+}
+
+.SignIn {
+  margin-left: 50px;
+  padding-left: 50px;
+} */
