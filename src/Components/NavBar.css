@@ -1,0 +1,13 @@
+.navBar {
+    border-bottom: 2px solid black;
+    height: 60px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.navButton {
+    height: 20px;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,0 +1,23 @@
+.contactUserCard {
+    border: 2px solid black;
+    margin: auto;
+    margin-bottom: 30px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+}
+
+.pic {
+    display: inline-block;
+    height: 70px;
+    padding: 15px;
+    padding-right: 0;
+}
+
+.userInfo {
+    display: inline-block;
+    width:125px;
+    margin: auto;
+    font-size: x-small;
+}
+
