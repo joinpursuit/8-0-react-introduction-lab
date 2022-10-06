@@ -1,0 +1,9 @@
+#UserProfile{
+    display: flex;
+    margin: 10px;
+    padding-bottom: 60px;
+    border: 2px solid black;
+}
+#pic{
+    margin-right: 10px ;
+}

@@ -3,27 +3,18 @@ import React from "react";
 import  NavBar  from "./Components/NavBar";
 import UserProfile from "./Components/UserProfile";
 import Posts from "./Components/Posts";
-import Post from "./Components/Post";
 import Contacts from "./Components/Contacts";
-import ContactUserCard from "./Components/ContactUserCard";
 import "./index.css";
-import "./NavBar.css";
+import './App.css'
 
 
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <NavBar />
       <UserProfile />
-      <Posts />
-      <Post />
-      <Post />
-      <Post />
       <Contacts />
-      <ContactUserCard />
-      <ContactUserCard />
-      <ContactUserCard />
-      <ContactUserCard />
+      <Posts />
     </div>
   
   )
