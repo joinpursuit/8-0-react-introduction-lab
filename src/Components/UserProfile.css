@@ -1,9 +1,11 @@
 #UserProfile{
-    display: flex;
+    /* display: grid; */
     margin: 10px;
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
     border: 2px solid black;
 }
 #pic{
-    margin-right: 10px ;
+    margin-bottom: 20px ;
+    margin-right: 20px;
+    float: left;
 }
