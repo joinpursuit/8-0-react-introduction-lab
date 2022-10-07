@@ -12,9 +12,9 @@ const App = () => {
       <ul>
         <NavBar />
         <UserProfile />
+        <Posts />
+        <Contacts />
       </ul>
-      <Posts />
-      <Contacts />
     </div>
   )
 }
