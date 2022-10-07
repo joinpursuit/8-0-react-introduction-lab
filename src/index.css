@@ -9,3 +9,15 @@ body,
   height: 100%;
   width: 100%;
 }
+
+
+/* nav{
+  display: grid;
+  background-color: skyblue;
+  justify-content: right;
+  }
+  
+  .gridbox{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr; 
+  } */
