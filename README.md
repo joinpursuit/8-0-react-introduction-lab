@@ -6,8 +6,8 @@ Edit multiple JavaScript files in this lab as you get the hang of creating and u
 
 ## Lab Setup
 
-### Getting started
-
+### Getting started 
+  
 1. Fork and clone this repository.
 
 1. Navigate to the cloned repository's directory on your command line. Then, run the following command:
