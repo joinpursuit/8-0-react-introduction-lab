@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 
-const App = () => {
+function App () {
   return <p>Hello, world!</p>;
 };
 
