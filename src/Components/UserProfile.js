@@ -1,5 +1,9 @@
 const UserProfile = () => {
-  return <a href="#!">UserProfile</a>;
+  return (
+    <div>
+      <a href="#!">UserProfile</a>
+    </div>
+  );
 };
 
 export default UserProfile;
