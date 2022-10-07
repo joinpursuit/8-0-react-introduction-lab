@@ -1,0 +1,22 @@
+.App{
+    display: grid;
+grid-template-columns: repeat(5, 1fr);
+
+
+}
+#NavBar{
+    grid-column: 1/6;
+}
+#UserProfile{
+    grid-column:1/4 ;
+    margin-top: 20px;
+    width: auto;
+    height: inherit;
+}
+#Posts{
+    grid-column:1/5 ;
+
+}
+#Contacts{
+    grid-column: 4/6;
+}

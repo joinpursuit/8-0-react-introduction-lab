@@ -1,0 +1,12 @@
+#NavBar{
+    background-color: skyblue;
+    height: 35px;
+    text-align: right;
+    padding: 10px;
+}
+#about{
+    margin: 10px;
+}
+#create{
+    margin: 10px;
+}
