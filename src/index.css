@@ -12,7 +12,7 @@ body,
 
 #root {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 4fr 2fr;
   grid-template-rows: auto 1fr 2fr;
   row-gap: 10px;
   column-gap: 10px;
@@ -51,12 +51,30 @@ body,
 .posts {
   grid-column: 1/2;
   border: 2px solid #1d1d1d;
+  text-align: center;
+  display: grid;
+  padding: 20px;
+}
+
+.post {
+  border: 2px solid #1d1d1d;
+  margin-bottom: 30px;
+  line-height: 1.8;
 }
 
 .contacts {
   grid-column: 2/3;
   grid-row: 2/4;
   border: 2px solid #1d1d1d;
+  text-align: center;
+  padding: 10px;
+}
+
+.contact-user-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  border: 2px solid #1d1d1d;
+  margin: 10px;
 }
 
 .user-profile,
