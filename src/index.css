@@ -16,7 +16,9 @@ body,
 }
 .App {
   display: grid;
-  color: blue;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 2fr;
+  color: black;
 }
 
 .Posts {
@@ -41,7 +43,7 @@ body,
   grid-column: 1;
   grid-row: 2;
   text-align: center;
-  border: 1px solid gray;
+  border: 1px solid black;
   margin-left: 100vh;
   margin-bottom: 50vh;
 }
