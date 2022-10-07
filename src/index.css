@@ -9,3 +9,43 @@ body,
   height: 100%;
   width: 100%;
 }
+.appName {
+  display: grid;
+  background-color: blue;
+  color: white;
+}
+.App {
+  display: grid;
+  color: blue;
+}
+
+.Posts {
+  display: grid;
+  grid-column: 1;
+  grid-row: 2;
+  text-align: center;
+  border: 1px solid gray;
+  margin-right: 78vh;
+  margin-left: 5vh;
+}
+
+.Post {
+  text-align: center;
+  border: 1px solid black;
+  height: 20vh;
+  width: 83vh;
+}
+
+.Contacts {
+  display: grid;
+  grid-column: 1;
+  grid-row: 2;
+  text-align: center;
+  border: 1px solid gray;
+  margin-left: 100vh;
+  margin-bottom: 50vh;
+}
+
+.ContactUserCard {
+  border: 1px solid black;
+}
