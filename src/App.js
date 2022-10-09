@@ -1,9 +1,9 @@
 import React from "react";
 import "./index.css";
-import NavBar from "./components/NavBar";
-import UserProfile from "./components/UserProfile";
-import Posts from "./components/Posts";
-import Contacts from "./components/Contacts";
+import NavBar from "./Components/NavBar";
+import UserProfile from "./Components/UserProfile";
+import Posts from "./Components/Posts";
+import Contacts from "./Components/Contacts";
 
 function App() {
   return (
