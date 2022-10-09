@@ -1,8 +1,20 @@
-import React from "react";
-import "./index.css";
+import React from "react";  // package
+import "./index.css";  //local file
+import NavBar from "./components/NavBar";
+import UserProfile from "./components/UserProfile";
+import Contacts from "./components/Contacts";
+import Posts from "./components/Posts";
 
 const App = () => {
-  return <p>Hello, world!</p>;
+  return (
+    <>
+    <NavBar/>  
+    <UserProfile/>
+    <Posts/>
+    <Contacts/>
+    {/* <ContactUserCard/> */}
+    </>
+  );
 };
 
 export default App;
