@@ -1,7 +1,7 @@
 import React from "react";
 import ContactUserCard from "./ContactUserCard";
 
-const Contact = () => {
+const Contacts = () => {
     return (
         <div className="contacts">
             <h2>Contacts</h2>
@@ -13,4 +13,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+export default Contacts
