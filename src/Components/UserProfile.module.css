@@ -1,0 +1,15 @@
+.userProfile{
+        margin: 32px;
+        border: 1px solid black;
+        display: flex;
+        height: 200px;
+}
+
+.img{
+        width: 100px;
+        height: 100px;
+}
+.userDiv{
+        text-align: center;
+
+}

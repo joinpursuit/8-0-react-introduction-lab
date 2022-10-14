@@ -1,0 +1,10 @@
+.ContacUserName {
+    border: 1px solid black;
+    display: flex;
+    margin: 18px;
+
+}
+.img {
+    width: 100px;
+    height: 100px;
+}

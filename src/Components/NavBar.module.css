@@ -1,0 +1,30 @@
+/* ESTE ES UN ARCHIVO CSS NORMAL COMUN Y CORRIENTE */
+/* Y VA A MANEJAR LAS CLASES DEL COMPONENTE NAVBAR UNICAMENTE */
+
+.navBar {
+  background-color: rgb(190, 241, 251);
+  padding: 16px;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.buttonList {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+
+}
+
+.list {
+  background-color: white;
+  padding: 2px 8px; 
+  border: 1px solid #aaa;
+  border-radius: 3px;
+
+
+  /* height: 100%; */
+  /* width: 100%; */
+  
+}
+
