@@ -9,3 +9,11 @@ body,
   height: 100%;
   width: 100%;
 }
+
+button {
+  margin: 8px;
+}
+
+div {
+  border: 1px solid black;
+}
