@@ -1,8 +1,20 @@
 import React from "react";
+import NavBar from "./Components/NavBar";
+import UserProfile from "./Components/UserProfile";
+import Posts from "./Components/Posts";
+import Contacts from "./Components/Contacts";
 import "./index.css";
 
-function App () {
-  return <p>Hello, world!</p>;
-};
+function App() {
+  return (
+    <div>
+      <p>Hello, world!</p>
+      <NavBar />
+      <UserProfile />
+      <Posts />
+      <Contacts />
+    </div>
+  );
+}
 
 export default App;
