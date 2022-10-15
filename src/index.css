@@ -7,5 +7,41 @@ html,
 body,
 #root {
   height: 100%;
-  width: 100%;
+  width: 200vh;
+
+}
+
+div {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: auto;
+  width: 200vh;
+}
+
+div main {
+  grid-column: 1.5/2;
+  border: 1px solid steelblue;
+  border-radius: 3px;
+  padding: 2.5%;
+}
+
+header {
+  grid-column: span 2;
+  background: lightskyblue;
+  border: 1px solid steelblue;
+
+}
+
+header form {
+  padding-top: 8%;
+  padding-bottom: 8%;
+  margin: 1% .5% 1% 70%;
+  width: 30%;
+}
+
+header form button{
+  margin: 1% 4% 1% 1%;
+  background: white;
+  border: 1px solid steelblue;
+  border-radius: 3px;
 }
