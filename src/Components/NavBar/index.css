@@ -1,0 +1,14 @@
+#NavBar{
+    display: flex;
+    background-color: aqua;
+    width: 100%;
+    justify-content: right;
+
+}
+.navbar-btn-wrappers{
+    justify-content: space-between;
+}
+.navbar-btn{
+    padding: 5px;
+    margin: 10px;
+}
