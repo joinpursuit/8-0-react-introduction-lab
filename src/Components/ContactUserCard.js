@@ -1,8 +1,8 @@
 const ContactUserCard = () => {
   return <>
-<div>A</div>
-  <div>B</div>
-  <div>C</div>
+
+<div>kp</div>
+  
 
   </>
 };

@@ -1,6 +1,11 @@
+import Post from "./Post"
 const Posts = () => {
 return <div>
-    Posts
+    <Post/>
+    <br/>
+    <Post/>
+    <br/>
+    <Post/>
 </div>
 
 }
